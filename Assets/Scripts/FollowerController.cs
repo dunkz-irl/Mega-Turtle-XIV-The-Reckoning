@@ -11,6 +11,7 @@ public class FollowerController : Turtle
     private bool hasTarget;
     private GameObject playerGO;
     [SerializeField] private Transform targetTransform;
+    private float targetStopDistance { get; set; } = 4;
 
     private void Start()
     {
@@ -35,7 +36,7 @@ public class FollowerController : Turtle
             float distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
 
             // FIX: Checking this way feels messy
-            if (targetTransform.tag == "Player" && distanceToTarget < 4) // If closer than 4 units to the Player
+            if (targetTransform.tag == "Player" && distanceToTarget < targetStopDistance) // If closer than 4 units to the Player
             {
                 // TODO: Slow down smoothing as reaches player, rotate to face player even if stationary
                 horizontalInput = 0;
@@ -78,5 +79,11 @@ public class FollowerController : Turtle
                 }
             }
         }
+    }
+
+    public void SetMovementTarget(Transform transform, float stopDistance)
+    {
+        targetTransform = transform;
+        targetStopDistance = stopDistance;
     }
 }
