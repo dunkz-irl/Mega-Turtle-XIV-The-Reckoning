@@ -24,6 +24,24 @@ public class PlayerController : Turtle
         if (Input.GetButtonDown("Jump"))
         {
             Jump();
+
+            // Follower jump
+            float jumpDelayFloat = 0.15f;
+            float _jumpDelayFloat = 0.15f;
+
+            foreach (var follower in followers)
+            {
+                WaitForSeconds jumpDelay = new WaitForSeconds(jumpDelayFloat);
+                jumpDelayFloat += _jumpDelayFloat;
+
+                IEnumerator followerJump()
+                {
+                    yield return jumpDelay;
+                    follower.Jump();
+                }
+
+                StartCoroutine(followerJump());
+            }
         }
 
         base.Update();

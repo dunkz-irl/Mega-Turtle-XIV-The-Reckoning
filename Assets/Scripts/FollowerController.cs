@@ -14,7 +14,7 @@ public class FollowerController : Turtle
 
     private void Start()
     {
-        InitTurtle();    
+        InitTurtle();        
     }
 
     void InitFollow()
@@ -34,8 +34,8 @@ public class FollowerController : Turtle
             turtleToTargetVector = targetTransform.position - transform.position;
             float distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
 
-            // FIX: Feels messy
-            if (targetTransform.tag == "Player" && distanceToTarget < 4) // If closer than 5 units to the Player
+            // FIX: Checking this way feels messy
+            if (targetTransform.tag == "Player" && distanceToTarget < 4) // If closer than 4 units to the Player
             {
                 // TODO: Slow down smoothing as reaches player, rotate to face player even if stationary
                 horizontalInput = 0;
@@ -51,6 +51,8 @@ public class FollowerController : Turtle
                 horizontalInput = turtleToTargetVector.x;
                 verticalInput = turtleToTargetVector.z;
             }
+
+            // TODO: Add delayed jumping mexican wave style
 
             base.Update();
         }

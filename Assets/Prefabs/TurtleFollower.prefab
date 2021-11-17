@@ -395,13 +395,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 6
   RotationSmoothTime: 0.1
-  JumpHeight: 1
-  Gravity: -9.81
+  JumpHeight: 5
+  Gravity: -40
   CanDoubleJump: 0
   MaximumJumps: 2
   isGrounded: 0
   jumpVector: {x: 0, y: 0, z: 0}
   isFollowing: 0
+  FollowerID: 0
+  targetTransform: {fileID: 0}
 --- !u!1 &1681504577722218835
 GameObject:
   m_ObjectHideFlags: 0

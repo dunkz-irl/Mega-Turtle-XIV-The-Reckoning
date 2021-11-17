@@ -59,13 +59,13 @@ public class Turtle : MonoBehaviour
         if (gameObject.tag == "Player")
             targetAngle = Mathf.Atan2(inputVector.x, inputVector.z) * Mathf.Rad2Deg + Camera.main.transform.eulerAngles.y; // Add camera Vector for player
         else
-            targetAngle = Mathf.Atan2(inputVector.x, inputVector.z) * Mathf.Rad2Deg;
+            targetAngle = Mathf.Atan2(inputVector.x, inputVector.z) * Mathf.Rad2Deg; // But not for followers
 
         float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref currentVelocity, RotationSmoothTime); // To smooth player y rotation
         transform.rotation = Quaternion.Euler(0f, angle, 0f);
     }
 
-    protected void Jump()
+    internal void Jump()
     {
         if (isGrounded)
         {
