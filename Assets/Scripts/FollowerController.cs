@@ -18,13 +18,27 @@ public class FollowerController : Turtle
         InitTurtle();        
     }
 
-    void InitFollow()
+    public void InitFollow()
     {
         isFollowing = true;
         PlayerController.followers.Add(this); //  Add this turtle follower to the list of followers on the PlayerController script
         FollowerID = PlayerController.followers.Count;
 
         Debug.Log("Follow Initialised, isFollowing is " + isFollowing + ", ID is " + PlayerController.followers.Count);
+
+        if (!hasTarget || targetTransform.GetComponent<PressurePlate>() != null)
+        {
+            if (FollowerID == 1) // If no other followers, follow the player
+            {
+                targetTransform = PlayerController.PlayerTransform;
+                hasTarget = true;
+            }
+            else // Otherwise follow the last follower
+            {
+                targetTransform = PlayerController.followers[PlayerController.followers.Count - 2].gameObject.transform;
+                hasTarget = true;
+            }
+        }
     }
     
     // Set horizontalInput and verticalInput to move Turtle
@@ -64,20 +78,6 @@ public class FollowerController : Turtle
         if (other.tag == "Player" && !isFollowing)
         {
             InitFollow();
-
-            if (!hasTarget)
-            {
-                if (FollowerID == 1) // If no other followers, follow the player
-                {
-                    targetTransform = PlayerController.PlayerTransform;
-                    hasTarget = true;
-                }
-                else // Otherwise follow the last follower
-                {
-                    targetTransform = PlayerController.followers[PlayerController.followers.Count - 2].gameObject.transform;
-                    hasTarget = true;
-                }
-            }
         }
     }
 
