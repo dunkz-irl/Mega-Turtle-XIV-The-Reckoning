@@ -88,6 +88,7 @@ public class PlayerController : Turtle
 
                 selectedPressurePlate.Occupier.InitFollow();
                 selectedPressurePlate.isOccupied = false;
+                selectedPressurePlate.Occupier = null;
             }
         }
 

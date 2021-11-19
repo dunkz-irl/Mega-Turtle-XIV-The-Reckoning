@@ -1,21 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class PressurePlate : MonoBehaviour
 {
     public bool isOccupied;
     public FollowerController Occupier;
-
-    public static UnityAction OnPlayerEnterPressurePlate;
+    public string Colour;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            other.GetComponent<PlayerController>().selectedPressurePlate = this;
-            OnPlayerEnterPressurePlate();
+            other.GetComponent<PlayerController>().selectedPressurePlate = this;            
         }
     }
 
@@ -23,8 +20,7 @@ public class PressurePlate : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.GetComponent<PlayerController>().selectedPressurePlate = null;
-            OnPlayerEnterPressurePlate();
+            other.GetComponent<PlayerController>().selectedPressurePlate = null;            
         }
     }
 }
