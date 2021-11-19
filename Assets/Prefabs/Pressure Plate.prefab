@@ -197,7 +197,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 2.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3566389727722055018
 MonoBehaviour:
@@ -214,6 +214,7 @@ MonoBehaviour:
   isOccupied: 0
   Occupier: {fileID: 0}
   Colour: 
+  ConnectedDoor: {fileID: 0}
 --- !u!54 &6269239102766443232
 Rigidbody:
   m_ObjectHideFlags: 0

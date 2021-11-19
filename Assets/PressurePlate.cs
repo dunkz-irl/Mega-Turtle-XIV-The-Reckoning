@@ -7,6 +7,7 @@ public class PressurePlate : MonoBehaviour
     public bool isOccupied;
     public FollowerController Occupier;
     public string Colour;
+    public DoorPlaceholder ConnectedDoor;
 
     private void OnTriggerEnter(Collider other)
     {

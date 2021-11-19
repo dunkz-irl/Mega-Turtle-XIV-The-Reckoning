@@ -14,7 +14,9 @@ public class PlayerController : Turtle
     {
         InitTurtle();
         PlayerTransform = transform;        
-    }    
+    }
+    
+    // FIX: Double tapping 'E' sends two turtles and has a lot of bugs
 
     // Update is called once per frame
     protected override void Update()
@@ -62,7 +64,7 @@ public class PlayerController : Turtle
                 followers[0].SetMovementTarget(selectedPressurePlate.transform, 3f);
                 //followers[0].isFollowing = false; // This makes things weird
 
-                selectedPressurePlate.isOccupied = true; // TODO: could be on event?
+                /*selectedPressurePlate.isOccupied = true; */// TODO: could be on event?
 
                 // Remove first follower from List and tell the pressure plate who's occupying it
                 followers[0].FollowerID = 0;
@@ -86,10 +88,7 @@ public class PlayerController : Turtle
 
             else if (selectedPressurePlate != null && selectedPressurePlate.isOccupied)
             {
-                Debug.Log("Turtle come back!!!!");
-
                 selectedPressurePlate.Occupier.InitFollow();
-                selectedPressurePlate.isOccupied = false;
                 selectedPressurePlate.Occupier = null;
             }
         }

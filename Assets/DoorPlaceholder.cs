@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DoorPlaceholder : MonoBehaviour
 {
     public PressurePlate ConnectedPressurePlate;
+    public UnityAction OnAnimFinish;
     private GameObject[] pressurePlates;
 
     // Start is called before the first frame update
@@ -16,31 +18,21 @@ public class DoorPlaceholder : MonoBehaviour
 
     void checkLockStatus()
     {
-        //int count = 0;
-
-        //foreach (var pressurePlate in pressurePlates)
-        //{
-        //    if (pressurePlate.GetComponent<PressurePlate>().isOccupied)
-        //    {
-        //        count++;
-        //    }
-        //}
-
-        //if (count == 2)
-        //{
-        //    GetComponent<Animator>().SetTrigger("OpenDoor");
-        //}
-
         Debug.Log("Door has checked conditions");
 
         // TODO: Animate properly
         if (ConnectedPressurePlate.isOccupied)
         {
-            GetComponent<MeshRenderer>().enabled = false;
+            GetComponentInChildren<Animator>().SetTrigger("OpenDoor");
         }
         else // Pressure plate is not occupied
         {
-            GetComponent<MeshRenderer>().enabled = true;
+            GetComponentInChildren<Animator>().SetTrigger("CloseDoor");
         }
-    }    
+    }
+    
+    void animFinish()
+    {
+        OnAnimFinish();
+    }
 }
