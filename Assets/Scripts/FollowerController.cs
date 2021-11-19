@@ -15,11 +15,12 @@ public class FollowerController : Turtle
 
     private void Start()
     {
-        InitTurtle();        
+        InitTurtle();
+        Jump();
     }
 
     public void InitFollow()
-    {
+    {        
         isFollowing = true;
         PlayerController.followers.Add(this); //  Add this turtle follower to the list of followers on the PlayerController script
         FollowerID = PlayerController.followers.Count;
@@ -39,8 +40,19 @@ public class FollowerController : Turtle
                 hasTarget = true;
             }
         }
+
+        halfJump();
     }
-    
+
+    internal void halfJump()
+    {
+        isGrounded = true; //  Don't know why this has to be here but it does ;P
+        float _jh = JumpHeight;
+        JumpHeight = 2.5f;
+        Jump(); // Jump a bit to make it a bit more obvious they are following something
+        JumpHeight = _jh;
+    }
+
     // Set horizontalInput and verticalInput to move Turtle
     protected override void Update()
     {
@@ -66,8 +78,6 @@ public class FollowerController : Turtle
                 horizontalInput = turtleToTargetVector.x;
                 verticalInput = turtleToTargetVector.z;
             }
-
-            // TODO: Add delayed jumping mexican wave style
 
             base.Update();
         }

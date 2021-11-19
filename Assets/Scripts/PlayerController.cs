@@ -57,7 +57,9 @@ public class PlayerController : Turtle
             // Send first follower to target
             if (selectedPressurePlate != null && !selectedPressurePlate.isOccupied) // FIX: Can probs make this check less messy somehow
             {
-                followers[0].SetMovementTarget(selectedPressurePlate.transform, 1f);
+                followers[0].halfJump(); // Since InitFollow isn't called (maybe it could be?)
+
+                followers[0].SetMovementTarget(selectedPressurePlate.transform, 3f);
                 //followers[0].isFollowing = false; // This makes things weird
 
                 selectedPressurePlate.isOccupied = true; // TODO: could be on event?
