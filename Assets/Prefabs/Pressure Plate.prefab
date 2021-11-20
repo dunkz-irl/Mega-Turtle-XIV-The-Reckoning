@@ -178,7 +178,7 @@ Transform:
   m_GameObject: {fileID: 7531648850069774033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.7, y: -0.17, z: -17.3}
-  m_LocalScale: {x: 0.42420012, y: 0.6317612, z: 0.84840024}
+  m_LocalScale: {x: 2.1210005, y: 0.6317612, z: 2.1210005}
   m_Children:
   - {fileID: 7531648851489519560}
   - {fileID: 7531648851884200147}
@@ -197,7 +197,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.38
+  m_Radius: 1.25
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3566389727722055018
 MonoBehaviour:
@@ -213,7 +213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOccupied: 0
   Occupier: {fileID: 0}
-  Colour: 
   ConnectedDoor: {fileID: 0}
 --- !u!54 &6269239102766443232
 Rigidbody:
@@ -787,8 +786,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.025, y: 0.03, z: 0.0065}
+  m_Center: {x: -0.01, y: 0.01, z: 0.0024}
 --- !u!1 &7531648851784810203
 GameObject:
   m_ObjectHideFlags: 0

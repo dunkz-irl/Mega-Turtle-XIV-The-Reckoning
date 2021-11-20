@@ -11,7 +11,7 @@ public class FollowerController : Turtle
     private bool hasTarget;
     private GameObject playerGO;
     [SerializeField] private Transform targetTransform;
-    private float targetStopDistance { get; set; } = 4;
+    internal static float targetStopDistance { get; set; } = 2f;
 
     private void Start()
     {
@@ -68,7 +68,7 @@ public class FollowerController : Turtle
                 horizontalInput = 0;
                 verticalInput = 0;
             }
-            else if (targetTransform.tag == "Follower" && distanceToTarget < 3)
+            else if (targetTransform.tag == "Follower" && distanceToTarget < targetStopDistance)
             {
                 horizontalInput = 0;
                 verticalInput = 0;
@@ -83,13 +83,14 @@ public class FollowerController : Turtle
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player" && !isFollowing)
-        {
-            InitFollow();
-        }
-    }
+    // Moved to script on child GO
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Player" && !isFollowing)
+    //    {
+    //        InitFollow();
+    //    }
+    //}
 
     public void SetMovementTarget(Transform transform, float stopDistance)
     {

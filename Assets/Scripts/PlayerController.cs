@@ -74,7 +74,7 @@ public class PlayerController : Turtle
                 if (followers.Count != 0)
                 {
                     // Send next turtle in queue to follow player
-                    followers[0].SetMovementTarget(PlayerTransform, 4f);
+                    followers[0].SetMovementTarget(PlayerTransform, FollowerController.targetStopDistance);
                 }            
 
                 // Reset Follower IDs
