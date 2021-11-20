@@ -7,12 +7,10 @@ public class DoorPlaceholder : MonoBehaviour
 {
     public PressurePlate ConnectedPressurePlate;
     public UnityAction OnAnimFinish;
-    private GameObject[] pressurePlates;
 
     // Start is called before the first frame update
     void Start()
     {
-        pressurePlates = GameObject.FindGameObjectsWithTag("PressurePlate");
         ConnectedPressurePlate.GetComponentInChildren<PressurePlateInnerCollider>().OnTurtleEnterPressurePlate += checkLockStatus;
     }
 

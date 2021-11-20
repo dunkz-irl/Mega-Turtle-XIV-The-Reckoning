@@ -8,6 +8,7 @@ public class PlayerController : Turtle
     public static Transform PlayerTransform;
     public static List<FollowerController> followers = new List<FollowerController>();
     public PressurePlate selectedPressurePlate;
+    public bool isInPressurePlateTrigger = false;    
 
     // Start is called before the first frame update
     void Start()
@@ -59,9 +60,9 @@ public class PlayerController : Turtle
             // Send first follower to target
             if (selectedPressurePlate != null && !selectedPressurePlate.isOccupied) // FIX: Can probs make this check less messy somehow
             {
-                followers[0].halfJump(); // Since InitFollow isn't called (maybe it could be?)
+                followers[0].halfJump(); // Since InitFollow isn't called (maybe it could be?)                
 
-                followers[0].SetMovementTarget(selectedPressurePlate.transform, 3f);
+                followers[0].SetMovementTarget(selectedPressurePlate.FollowPoint, 0.5f);
                 //followers[0].isFollowing = false; // This makes things weird
 
                 /*selectedPressurePlate.isOccupied = true; */// TODO: could be on event?
@@ -69,12 +70,13 @@ public class PlayerController : Turtle
                 // Remove first follower from List and tell the pressure plate who's occupying it
                 followers[0].FollowerID = 0;
                 selectedPressurePlate.Occupier = followers[0];
+                selectedPressurePlate.hasPlayerAction = true;
                 followers.RemoveAt(0);
 
                 if (followers.Count != 0)
                 {
                     // Send next turtle in queue to follow player
-                    followers[0].SetMovementTarget(PlayerTransform, FollowerController.targetStopDistance);
+                    followers[0].SetMovementTarget(PlayerTransform, 1.5f);
                 }            
 
                 // Reset Follower IDs
@@ -89,6 +91,7 @@ public class PlayerController : Turtle
             else if (selectedPressurePlate != null && selectedPressurePlate.isOccupied)
             {
                 selectedPressurePlate.Occupier.InitFollow();
+                selectedPressurePlate.Occupier.SetMovementTarget(transform, 2f);
                 selectedPressurePlate.Occupier = null;
             }
         }

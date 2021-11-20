@@ -11,7 +11,7 @@ public class FollowerController : Turtle
     private bool hasTarget;
     private GameObject playerGO;
     [SerializeField] private Transform targetTransform;
-    internal static float targetStopDistance { get; set; } = 2f;
+    public float targetStopDistance { get; set; } = 2f;
 
     private void Start()
     {
@@ -73,11 +73,18 @@ public class FollowerController : Turtle
                 horizontalInput = 0;
                 verticalInput = 0;
             }
+            else if (targetTransform.tag == "PressurePlate" && distanceToTarget < targetStopDistance)
+            {
+                horizontalInput = 0;
+                verticalInput = 0;
+            }
             else
             {
                 horizontalInput = turtleToTargetVector.x;
                 verticalInput = turtleToTargetVector.z;
             }
+
+            //Debug.Log("Stop distance: " + targetStopDistance + ". Distance to target: " + distanceToTarget);
 
             base.Update();
         }

@@ -5,22 +5,34 @@ using UnityEngine;
 public class PressurePlate : MonoBehaviour
 {
     public bool isOccupied;
+    public bool hasPlayerAction = false;
     public FollowerController Occupier;
     public DoorPlaceholder ConnectedDoor;
+    public Transform FollowPoint;
+
+    private PlayerController pc;
+
+    private void Start()
+    {
+        pc = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && pc.isInPressurePlateTrigger == false)
         {
-            other.GetComponent<PlayerController>().selectedPressurePlate = this;            
+            pc.selectedPressurePlate = this;
+            pc.isInPressurePlateTrigger = true;
+
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && pc.isInPressurePlateTrigger == true)
         {
-            other.GetComponent<PlayerController>().selectedPressurePlate = null;            
+            pc.selectedPressurePlate = null;
+            pc.isInPressurePlateTrigger = false;
         }
     }
 }

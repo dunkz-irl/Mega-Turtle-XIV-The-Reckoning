@@ -6,38 +6,38 @@ using UnityEngine.Events;
 public class PressurePlateInnerCollider : MonoBehaviour
 {
     public UnityAction OnTurtleEnterPressurePlate;
+    public PressurePlate ParentPressurePlate;
 
     private SphereCollider sphCol;
-    private PressurePlate pressurePlate;
 
     private void Start()
     {
         sphCol = GetComponent<SphereCollider>();
-        GetComponentInParent<PressurePlate>().ConnectedDoor.OnAnimFinish += reenableSphereCollider;
-        pressurePlate = GetComponentInParent<PressurePlate>();
+        ParentPressurePlate.ConnectedDoor.OnAnimFinish += finishTurtleOccupation;
     }
 
-    private void reenableSphereCollider()
+    private void finishTurtleOccupation()
     {
         sphCol.enabled = true;
+        ParentPressurePlate.hasPlayerAction = false;        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Follower" && !pressurePlate.isOccupied)
+        if (other.tag == "Follower" && !ParentPressurePlate.isOccupied && ParentPressurePlate.hasPlayerAction)
         {            
             sphCol.enabled = false;
-            pressurePlate.isOccupied = true;
+            ParentPressurePlate.isOccupied = true;
             OnTurtleEnterPressurePlate();
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Follower" && pressurePlate.isOccupied)
+        if (other.tag == "Follower")
         {            
             sphCol.enabled = false;
-            pressurePlate.isOccupied = false;
+            ParentPressurePlate.isOccupied = false;
             OnTurtleEnterPressurePlate();
         }
     }
