@@ -12,9 +12,18 @@ public class PlayerController : Turtle
 
     private Turtle[] turtles;
 
+
+    public FollowerController[] MoheyFollowers;
+
+    public GameObject WarningText,Wintext;
+    public GameObject Barrier;
+    bool win;
     // Start is called before the first frame update
     void Start()
     {
+        win = false;
+        WarningText.SetActive(false);
+        Wintext.SetActive(false);
         InitTurtle();
         PlayerTransform = transform;
         turtles = FindObjectsOfType<Turtle>();
@@ -65,7 +74,6 @@ public class PlayerController : Turtle
                 StartCoroutine(followerJump());
             }
         }
-
         // Assign Follower
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -127,7 +135,31 @@ public class PlayerController : Turtle
                 }                
             }
         }
-
         base.Update();
+    }
+    private void StepOnFinalButton()
+    {
+        foreach (FollowerController follower in MoheyFollowers)
+                follower.FinalFollow(transform.position);
+    }
+    public void TurtlesArrived()
+    {
+        win = true;
+        WarningText.SetActive(false);
+        Barrier.SetActive(false);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag== "Barrier"&&!win)
+            WarningText.SetActive(true);
+        else if (other.tag=="end")
+            Wintext.SetActive(true);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Barrier" && !win)
+        {
+            WarningText.SetActive(false);
+        }
     }
 }

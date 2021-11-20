@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class FollowerController : Turtle
 {
@@ -13,9 +14,10 @@ public class FollowerController : Turtle
     private GameObject playerGO;
     [SerializeField] private Transform targetTransform;
     public float targetStopDistance { get; set; } = 2f;
-
+    NavMeshAgent agent;
     private void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
         InitTurtle();
         Jump();
         isGrounded = true;
@@ -110,5 +112,9 @@ public class FollowerController : Turtle
     {
         targetTransform = transform;
         targetStopDistance = stopDistance;
+    }
+    public void FinalFollow(Vector3 target)
+    {
+        agent.SetDestination(target);
     }
 }
