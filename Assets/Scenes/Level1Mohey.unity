@@ -486,6 +486,16 @@ PrefabInstance:
       propertyPath: ConnectedDoor
       value: 
       objectReference: {fileID: 1555068507}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 1555068507}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Name
@@ -2460,6 +2470,16 @@ PrefabInstance:
     - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: ConnectedDoor
+      value: 
+      objectReference: {fileID: 2070387639}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 2070387639}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
@@ -5012,6 +5032,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 296471841}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &307239403 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6369980537991366405, guid: 2326c95ae12a46e40b18a1dcefb17fdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1010646798}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d7c6ffcea2f7e4d88986a9d643743c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &317862176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7061,6 +7093,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 402296773}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &403033992 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6369980537991366405, guid: 2326c95ae12a46e40b18a1dcefb17fdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 332082178}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d7c6ffcea2f7e4d88986a9d643743c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &406034112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7793,7 +7837,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421859779}
-  m_LocalRotation: {x: 0.46696833, y: -0.04549215, z: 0.02406433, w: 0.8827751}
+  m_LocalRotation: {x: 0.4669684, y: -0.045492154, z: 0.024064336, w: 0.8827751}
   m_LocalPosition: {x: 0.6780141, y: 10.693919, z: -3.5409598}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10850,6 +10894,16 @@ PrefabInstance:
       propertyPath: ConnectedDoor
       value: 
       objectReference: {fileID: 17723553}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 17723553}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Name
@@ -12921,6 +12975,16 @@ PrefabInstance:
       propertyPath: ConnectedDoor
       value: 
       objectReference: {fileID: 1378018840}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 1378018840}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Name
@@ -14898,7 +14962,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854636650}
-  m_LocalRotation: {x: 0.45936543, y: -0.045697264, z: 0.023672534, w: 0.8867552}
+  m_LocalRotation: {x: 0.45936546, y: -0.045697268, z: 0.023672536, w: 0.8867552}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16962,6 +17026,16 @@ PrefabInstance:
       propertyPath: ConnectedDoor
       value: 
       objectReference: {fileID: 814207141}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 814207141}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Name
@@ -17669,6 +17743,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 967117801}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &968647554 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6369980537991366405, guid: 2326c95ae12a46e40b18a1dcefb17fdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 907431135}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d7c6ffcea2f7e4d88986a9d643743c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &970376742
 GameObject:
   m_ObjectHideFlags: 0
@@ -17744,6 +17830,16 @@ PrefabInstance:
     - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: ConnectedDoor
+      value: 
+      objectReference: {fileID: 769116589}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 769116589}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
@@ -18799,6 +18895,16 @@ PrefabInstance:
     - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: ConnectedDoor
+      value: 
+      objectReference: {fileID: 1110593399}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 1110593399}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
@@ -24497,6 +24603,26 @@ PrefabInstance:
       propertyPath: ConnectedDoor
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 307239403}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[1]
+      value: 
+      objectReference: {fileID: 403033992}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: ConnectedDoors.Array.data[2]
+      value: 
+      objectReference: {fileID: 968647554}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Name
@@ -33734,7 +33860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 5.5
   RotationSmoothTime: 0.1
-  JumpHeight: 5
+  JumpHeight: 2.5
   Gravity: -40
   CanDoubleJump: 0
   MaximumJumps: 2

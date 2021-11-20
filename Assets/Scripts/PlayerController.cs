@@ -88,13 +88,14 @@ public class PlayerController : Turtle
 
                     followers[0].halfJump(); // Since InitFollow isn't called (maybe it could be?)                
 
-                    followers[0].SetMovementTarget(selectedPressurePlate.FollowPoint, 0.5f);
+                    followers[0].SetMovementTarget(selectedPressurePlate.FollowPoint, 0.5f);                    
                     //followers[0].isFollowing = false; // This makes things weird
 
                     /*selectedPressurePlate.isOccupied = true; */// TODO: could be on event?
 
                     // Remove first follower from List and tell the pressure plate who's occupying it
                     followers[0].FollowerID = 0;
+                    followers[0].isFollowingPlayer = false;
                     selectedPressurePlate.Occupier = followers[0];
                     selectedPressurePlate.hasPlayerAction = true;
                     followers.RemoveAt(0);
@@ -113,16 +114,16 @@ public class PlayerController : Turtle
                         i++;
                     }
                 }
-
             }
+
 
             else if (selectedPressurePlate != null && selectedPressurePlate.IsOccupied)
             {
                 if (checkTurtlesGroundedStatus())
                 {
                     selectedPressurePlate.IsOccupied = false;
-                    selectedPressurePlate.Occupier.InitFollow();
-                    selectedPressurePlate.Occupier.SetMovementTarget(transform, 2f);
+                    selectedPressurePlate.Occupier.InitFollowPlayer();
+                    //selectedPressurePlate.Occupier.SetMovementTarget(transform, 2f);
                     selectedPressurePlate.Occupier = null;
                 }                
             }

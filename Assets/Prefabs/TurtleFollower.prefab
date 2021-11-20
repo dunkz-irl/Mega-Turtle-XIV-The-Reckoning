@@ -123,13 +123,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 4.5
   RotationSmoothTime: 0.1
-  JumpHeight: 5
+  JumpHeight: 2.5
   Gravity: -40
   CanDoubleJump: 0
   MaximumJumps: 2
   isGrounded: 0
   jumpVector: {x: 0, y: 0, z: 0}
   isFollowing: 0
+  hasReachedDestination: 0
   FollowerID: 0
   targetTransform: {fileID: 0}
 --- !u!65 &1981096551283728671

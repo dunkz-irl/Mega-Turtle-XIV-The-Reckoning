@@ -16,7 +16,7 @@ public class DoorPlaceholder : MonoBehaviour
 
     public void checkLockStatus(bool val)
     {
-        Debug.Log("Door has checked conditions");
+        //Debug.Log("Door has checked conditions");
 
         // TODO: Animate properly
         if (val)
