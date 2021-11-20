@@ -11,15 +11,15 @@ public class DoorPlaceholder : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ConnectedPressurePlate.GetComponentInChildren<PressurePlateInnerCollider>().OnTurtleEnterPressurePlate += checkLockStatus;
+        //ConnectedPressurePlate.GetComponentInChildren<PressurePlateInnerCollider>().OnTurtleEnterPressurePlate += checkLockStatus;
     }
 
-    void checkLockStatus()
+    public void checkLockStatus(bool val)
     {
         Debug.Log("Door has checked conditions");
 
         // TODO: Animate properly
-        if (ConnectedPressurePlate.isOccupied)
+        if (val)
         {
             GetComponentInChildren<Animator>().SetTrigger("OpenDoor");
         }

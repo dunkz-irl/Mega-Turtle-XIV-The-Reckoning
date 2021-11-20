@@ -6,6 +6,6 @@ public class DoorAnim : MonoBehaviour
 {
     public void OnFinishAnim()
     {
-        GetComponentInParent<DoorPlaceholder>().OnAnimFinish();
+        //GetComponentInParent<DoorPlaceholder>().OnAnimFinish();
     }
 }

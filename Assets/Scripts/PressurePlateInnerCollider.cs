@@ -13,7 +13,7 @@ public class PressurePlateInnerCollider : MonoBehaviour
     private void Start()
     {
         sphCol = GetComponent<SphereCollider>();
-        ParentPressurePlate.ConnectedDoor.OnAnimFinish += finishTurtleOccupation;
+        //ParentPressurePlate.ConnectedDoor.OnAnimFinish += finishTurtleOccupation;
     }
 
     private void finishTurtleOccupation()
@@ -22,23 +22,21 @@ public class PressurePlateInnerCollider : MonoBehaviour
         ParentPressurePlate.hasPlayerAction = false;        
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Follower" && !ParentPressurePlate.isOccupied && ParentPressurePlate.hasPlayerAction)
-        {            
-            sphCol.enabled = false;
-            ParentPressurePlate.isOccupied = true;
-            OnTurtleEnterPressurePlate();
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Follower" && !ParentPressurePlate.IsOccupied)
+    //    {            
+    //        sphCol.enabled = false;
+    //        OnTurtleEnterPressurePlate();
+    //    }
+    //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Follower")
-        {            
-            sphCol.enabled = false;
-            ParentPressurePlate.isOccupied = false;
-            OnTurtleEnterPressurePlate();
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.tag == "Follower")
+    //    {            
+    //        sphCol.enabled = false;
+    //        OnTurtleEnterPressurePlate();
+    //    }
+    //}
 }

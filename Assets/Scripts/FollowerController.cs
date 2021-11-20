@@ -5,6 +5,7 @@ using UnityEngine;
 public class FollowerController : Turtle
 {
     public bool isFollowing = false;
+    public bool hasReachedDestination;
     public int FollowerID;
 
     private Vector3 turtleToTargetVector;
@@ -17,6 +18,7 @@ public class FollowerController : Turtle
     {
         InitTurtle();
         Jump();
+        isGrounded = true;
     }
 
     public void InitFollow()
@@ -51,6 +53,7 @@ public class FollowerController : Turtle
         JumpHeight = 2.5f;
         Jump(); // Jump a bit to make it a bit more obvious they are following something
         JumpHeight = _jh;
+        isGrounded = false;
     }
 
     // Set horizontalInput and verticalInput to move Turtle
@@ -67,21 +70,25 @@ public class FollowerController : Turtle
                 // TODO: Slow down smoothing as reaches player, rotate to face player even if stationary
                 horizontalInput = 0;
                 verticalInput = 0;
+                hasReachedDestination = true;
             }
             else if (targetTransform.tag == "Follower" && distanceToTarget < targetStopDistance)
             {
                 horizontalInput = 0;
                 verticalInput = 0;
+                hasReachedDestination = true;
             }
             else if (targetTransform.tag == "PressurePlate" && distanceToTarget < targetStopDistance)
             {
                 horizontalInput = 0;
                 verticalInput = 0;
+                hasReachedDestination = true;
             }
             else
             {
                 horizontalInput = turtleToTargetVector.x;
                 verticalInput = turtleToTargetVector.z;
+                hasReachedDestination = false;
             }
 
             //Debug.Log("Stop distance: " + targetStopDistance + ". Distance to target: " + distanceToTarget);

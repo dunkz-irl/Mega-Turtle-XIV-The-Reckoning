@@ -4,7 +4,17 @@ using UnityEngine;
 
 public class PressurePlate : MonoBehaviour
 {
-    public bool isOccupied;
+    private bool isOccupied;
+    public bool IsOccupied
+    {
+        get => isOccupied;
+        set
+        {
+            ConnectedDoor.checkLockStatus(value);
+            isOccupied = value;
+        }
+            
+    }
     public bool hasPlayerAction = false;
     public FollowerController Occupier;
     public DoorPlaceholder ConnectedDoor;
@@ -23,7 +33,6 @@ public class PressurePlate : MonoBehaviour
         {
             pc.selectedPressurePlate = this;
             pc.isInPressurePlateTrigger = true;
-
         }
     }
 
