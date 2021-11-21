@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	228227559	PIckupturtle			\Default Work Unit\PIckupturtle	
+	417627684	PLAYMUSIC			\Default Work Unit\PLAYMUSIC	
+	1877847629	DOOR			\Default Work Unit\DOOR	
+	2385628198	FOOTSTEPS			\Default Work Unit\FOOTSTEPS	
+	2637588553	TILE			\Default Work Unit\TILE	
+	3134943772	TinyFootsteps			\Default Work Unit\TinyFootsteps	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	782826392	Default			\Default Work Unit\Default	
+	881541897	navy			\Default Work Unit\navy	
+	980603538	red			\Default Work Unit\red	
+	1362796839	orange			\Default Work Unit\orange	
+	1711688963	lightBlue			\Default Work Unit\lightBlue	
+	2774173721	yellow			\Default Work Unit\yellow	
+	3036078039	purple			\Default Work Unit\purple	
+	4147287986	green			\Default Work Unit\green	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	144461611	SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_04	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_A60D7C6C.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOOTSTEPS\FOOTSTEPS_01\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_04		19270
+	148438891	PizzicatoStringGlock_SFXB_4	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\PizzicatoStringGlock_SFXB.4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\turle happy\turtle pickup\PizzicatoStringGlock_SFXB_4		243776
+	201939245	Track 2 Red	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 2 Red_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\Orange\Track 2 Red		7680200
+	206170623	Track 7 Purple	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 7 Purple_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\purple\Track 7 Purple		7680200
+	529633940	Drip_BW_59870	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Drip_BW.59870_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\turle happy\turtle pickup\Drip_BW_59870		25664
+	550066863	SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_03	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_C442A2EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOOTSTEPS\FOOTSTEPS_01\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_03		20008
+	561443316	Track 4 Green	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 4 Green_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\Green\Track 4 Green		7680200
+	649756345	Track 1 Default	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 1 Default_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\Music segment\Track 1 Default		7680200
+	667128561	BRS_Game_Scrabble_Tile_Bag_Drops_1	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\BRS_Game_Scrabble_Tile_Bag_Drops_1_BC774813.wem		\Actor-Mixer Hierarchy\Default Work Unit\LEVER\TILES\BRS_Game_Scrabble_Tile_Bag_Drops_1		88868
+	681571922	Track 8 Light Blue	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 8 Light Blue_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\lightblue\Track 8 Light Blue		7680200
+	698682393	SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_C86CBE71.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOOTSTEPS\FOOTSTEPS_01\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes		17794
+	706523935	WoodwindAccent_S08CT_966	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\WoodwindAccent_S08CT.966_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\turle happy\turtle pickup\WoodwindAccent_S08CT_966		413760
+	735465664	Track 5 Navy	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 5 Navy_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\purple\Track 5 Navy		7680200
+	742162001	PizzicatoString_S08CT_168	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\PizzicatoString_S08CT.168_B2B24151.wem		\Actor-Mixer Hierarchy\Default Work Unit\turle happy\turtle pickup\PizzicatoString_S08CT_168		280476
+	797718385	Track 6 Yellow	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 6 Yellow_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\purple\Track 6 Yellow		7680200
+	799622118	Track 3 Orange	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\Track 3 Orange_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\new\Orange\Track 3 Orange		7680200
+	874099906	SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_02	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_E2BCDBA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOOTSTEPS\FOOTSTEPS_01\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_02		25920
+	906588740	DOOR	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\SPLC-0115_FX_Oneshot_Doors_Open_Medieval_505C1913.wem		\Actor-Mixer Hierarchy\Default Work Unit\LEVER\DOORS\DOOR		340996
+	1002006032	SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_01	Y:\Documents\WwiseProjects\Turtle Puzzle\.cache\Mac\SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_A93E580E.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOOTSTEPS\FOOTSTEPS_01\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_01		22224
+
