@@ -7,13 +7,14 @@ public class BrownPressurePlate : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-        {
-            // Open all the doors so turtles can navigate
-            PressurePlate[] pressureplates = FindObjectsOfType<PressurePlate>();
-            foreach (var pressurePlate in pressureplates)
-            {
-                pressurePlate.IsOccupied = true;
-            }
+        {     
+            // For opening all doors
+            //
+            //PressurePlate[] pressureplates = FindObjectsOfType<PressurePlate>();
+            //foreach (var pressurePlate in pressureplates)
+            //{
+            //    pressurePlate.IsOccupied = true;
+            //}
 
             // Manage follower navigation to final point
             PlayerController player = other.GetComponent<PlayerController>();
@@ -24,6 +25,9 @@ public class BrownPressurePlate : MonoBehaviour
                 follower.GetComponentInChildren<Animator>().SetBool("isHiding", false);
                 player.StepOnFinalButton();
             }
+
+            // Open Brown doors only
+            player.selectedPressurePlate.IsOccupied = true;
         }
     }
 }
