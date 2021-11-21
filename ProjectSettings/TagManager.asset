@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Follower
   - PressurePlate
+  - Barrier
+  - end
   layers:
   - Default
   - TransparentFX
