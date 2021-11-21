@@ -10,17 +10,14 @@ public class PressurePlate : MonoBehaviour
         get => isOccupied;
         set
         {
-            foreach (var door in ConnectedDoors)
-            {
-                door.checkLockStatus(value);
-            }            
+            ConnectedDoor.checkLockStatus(value);
             isOccupied = value;
         }
             
     }
     public bool hasPlayerAction = false;
     public FollowerController Occupier;
-    public DoorPlaceholder[] ConnectedDoors;
+    public DoorPlaceholder ConnectedDoor;
     public Transform FollowPoint;
 
     private PlayerController pc;

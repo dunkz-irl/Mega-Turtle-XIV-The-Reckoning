@@ -1,19 +1,19 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class FollowerController : Turtle
 {
-    public bool isAwake = false;
+    public bool isFollowing = false;
     public bool hasReachedDestination;
     public int FollowerID;
 
     private Vector3 turtleToTargetVector;
-    public bool isFollowingPlayer;
+    private bool hasTarget;
     private GameObject playerGO;
     [SerializeField] private Transform targetTransform;
-    public float targetStopDistance = 2f;
+    public float targetStopDistance { get; set; } = 2f;
     NavMeshAgent agent;
     private void Start()
     {
@@ -23,27 +23,25 @@ public class FollowerController : Turtle
         isGrounded = true;
     }
 
-    public void InitFollowPlayer()
+    public void InitFollow()
     {        
-        isAwake = true;
+        isFollowing = true;
         PlayerController.followers.Add(this); //  Add this turtle follower to the list of followers on the PlayerController script
         FollowerID = PlayerController.followers.Count;
 
-        Debug.Log("Follow Initialised, isFollowingPlayer is " + isFollowingPlayer + ", ID is " + PlayerController.followers.Count);
+        Debug.Log("Follow Initialised, isFollowing is " + isFollowing + ", ID is " + PlayerController.followers.Count);
 
-        if (!isFollowingPlayer || targetTransform.GetComponent<PressurePlate>() != null)
+        if (!hasTarget || targetTransform.GetComponent<PressurePlate>() != null)
         {
             if (FollowerID == 1) // If no other followers, follow the player
             {
                 targetTransform = PlayerController.PlayerTransform;
-                isFollowingPlayer = true;
-                targetStopDistance = 1.25f;
+                hasTarget = true;
             }
             else // Otherwise follow the last follower
             {
                 targetTransform = PlayerController.followers[PlayerController.followers.Count - 2].gameObject.transform;
-                isFollowingPlayer = true;
-                targetStopDistance = 1.1f;
+                hasTarget = true;
             }
         }
 
@@ -63,7 +61,7 @@ public class FollowerController : Turtle
     // Set horizontalInput and verticalInput to move Turtle
     protected override void Update()
     {
-        if (isAwake)
+        if (isFollowing)
         {
             turtleToTargetVector = targetTransform.position - transform.position;
             float distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
