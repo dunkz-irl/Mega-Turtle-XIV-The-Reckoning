@@ -74,6 +74,25 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 0
   m_Center: {x: -1.1270001, y: 0.305, z: 2.72}
   m_TimeToStationary: 0.5
+--- !u!95 &7407976230304882046
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7979252738473168687}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 614c1306d64d2c94298db2c636d76cb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &7096944891725132414
 PrefabInstance:
   m_ObjectHideFlags: 0
