@@ -12,7 +12,6 @@ public class PlayerController : Turtle
 
     private Turtle[] turtles;
 
-
     public FollowerController[] MoheyFollowers;
 
     public GameObject WarningText,Wintext;
@@ -45,8 +44,6 @@ public class PlayerController : Turtle
 
         return true;
     }
-    
-    // FIX: Double tapping 'E' sends two turtles and has a lot of bugs
 
     // Update is called once per frame
     protected override void Update()
@@ -81,10 +78,6 @@ public class PlayerController : Turtle
         // Assign Follower
         if (Input.GetKeyDown(KeyCode.E))
         {
-            // TODO: Check which Pressure plate, and if empty
-            //       Also for turtles returning to player
-            // FIX:  isFollowing reset             
-
             // Send first follower to target
             if (selectedPressurePlate != null
                 && !selectedPressurePlate.IsOccupied 
@@ -100,13 +93,14 @@ public class PlayerController : Turtle
 
                     followers[0].halfJump(); // Since InitFollow isn't called (maybe it could be?)                
 
-                    followers[0].SetMovementTarget(selectedPressurePlate.FollowPoint, 0.5f);
+                    followers[0].SetMovementTarget(selectedPressurePlate.FollowPoint, 0.7f);                    
                     //followers[0].isFollowing = false; // This makes things weird
 
                     /*selectedPressurePlate.isOccupied = true; */// TODO: could be on event?
 
                     // Remove first follower from List and tell the pressure plate who's occupying it
                     followers[0].FollowerID = 0;
+                    followers[0].isFollowingPlayer = false;
                     selectedPressurePlate.Occupier = followers[0];
                     selectedPressurePlate.hasPlayerAction = true;
                     followers.RemoveAt(0);
@@ -125,16 +119,16 @@ public class PlayerController : Turtle
                         i++;
                     }
                 }
-
             }
+
 
             else if (selectedPressurePlate != null && selectedPressurePlate.IsOccupied)
             {
                 if (checkTurtlesGroundedStatus())
                 {
                     selectedPressurePlate.IsOccupied = false;
-                    selectedPressurePlate.Occupier.InitFollow();
-                    selectedPressurePlate.Occupier.SetMovementTarget(transform, 2f);
+                    selectedPressurePlate.Occupier.InitFollowPlayer();
+                    //selectedPressurePlate.Occupier.SetMovementTarget(transform, 2f);
                     selectedPressurePlate.Occupier = null;
                 }                
             }

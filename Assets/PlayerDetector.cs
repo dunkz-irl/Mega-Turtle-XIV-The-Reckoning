@@ -13,9 +13,9 @@ public class PlayerDetector : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" && !fc.isFollowing)
+        if (other.tag == "Player" && !fc.isAwake)
         {
-            fc.InitFollow();
+            fc.InitFollowPlayer();
         }
     }
 }

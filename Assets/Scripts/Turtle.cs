@@ -70,9 +70,7 @@ public class Turtle : MonoBehaviour
         if (isGrounded)
         {
             jumpVector.y += Mathf.Sqrt(JumpHeight * -2.0f * Gravity);
-            jumpCounter++;
-
-            Debug.Log("Jump");
+            jumpCounter++;            
 
             // TODO: sound effect, animation
         }
