@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 4.5
   RotationSmoothTime: 0.1
-  JumpHeight: 5
+  JumpHeight: 2.5
   Gravity: -40
   CanDoubleJump: 0
   MaximumJumps: 2
