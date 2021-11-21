@@ -15,6 +15,7 @@ public class PlayerController : Turtle
     public FollowerController[] MoheyFollowers;
 
     public GameObject WarningText,Wintext;
+    public GameObject[] startMenu;
     public GameObject Barrier;
     bool win;
     // Start is called before the first frame update
@@ -26,6 +27,9 @@ public class PlayerController : Turtle
         InitTurtle();
         PlayerTransform = transform;
         turtles = FindObjectsOfType<Turtle>();
+        foreach (GameObject item in startMenu)
+            item.SetActive(true);
+        Time.timeScale = 0;
     }
 
     bool checkTurtlesGroundedStatus()
@@ -155,5 +159,11 @@ public class PlayerController : Turtle
         {
             WarningText.SetActive(false);
         }
+    }
+    public void pressPlay()
+    {
+        foreach (GameObject item in startMenu)
+            item.SetActive(false);
+        Time.timeScale = 1;
     }
 }
