@@ -22,10 +22,12 @@ public class DoorPlaceholder : MonoBehaviour
         if (val)
         {
             GetComponentInChildren<Animator>().SetTrigger("OpenDoor");
+            AkSoundEngine.PostEvent("DOOR", gameObject);
         }
         else // Pressure plate is not occupied
         {
             GetComponentInChildren<Animator>().SetTrigger("CloseDoor");
+            AkSoundEngine.PostEvent("DOOR", gameObject);
         }
     }
     

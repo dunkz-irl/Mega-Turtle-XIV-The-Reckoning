@@ -34,6 +34,7 @@ public class PressurePlate : MonoBehaviour
     {
         if (other.tag == "Player" && pc.isInPressurePlateTrigger == false)
         {
+            
             pc.selectedPressurePlate = this;
             pc.isInPressurePlateTrigger = true;
         }
