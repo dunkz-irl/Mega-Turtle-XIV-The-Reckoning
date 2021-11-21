@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 84bb449f2d7411540aab36754014540b
+guid: 61e11bf6f2417cd4094b5705f1da3758
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MarbleTexture.003
+    second: {fileID: 2100000, guid: 25f3555577b1e9540b0a24f38f07a98f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlatformColorChanger
+    second: {fileID: 2100000, guid: ac0b5e4b6f79b0649ad2bd9d6c7020c8, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
