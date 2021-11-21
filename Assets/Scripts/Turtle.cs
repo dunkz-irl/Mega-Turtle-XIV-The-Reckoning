@@ -14,17 +14,20 @@ public class Turtle : MonoBehaviour
     
     protected float verticalInput;
     protected float horizontalInput;
+    protected Animator animator;
 
     private Vector3 inputVector;
     private CharacterController characterController;
     private float currentVelocity;    
     private int jumpCounter;
     private float targetAngle;
+    
     [SerializeField] private Vector3 jumpVector = new Vector3();
 
     protected void InitTurtle()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     protected virtual void Update()
@@ -41,6 +44,18 @@ public class Turtle : MonoBehaviour
             // Move turtle
             Vector3 movementVector = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             characterController.Move(movementVector.normalized * MovementSpeed * Time.deltaTime);
+
+            // Animation
+            if (!animator.GetBool("isWalking"))
+            {
+                animator.SetBool("isWalking", true);
+                animator.SetBool("isIdle", false);
+            }            
+        }
+        else
+        {
+                animator.SetBool("isIdle", true);
+                animator.SetBool("isWalking", false);
         }
 
         jumpVector.y += Gravity * Time.deltaTime;
@@ -70,9 +85,7 @@ public class Turtle : MonoBehaviour
         if (isGrounded)
         {
             jumpVector.y += Mathf.Sqrt(JumpHeight * -2.0f * Gravity);
-            jumpCounter++;
-
-            Debug.Log("Jump");
+            jumpCounter++;            
 
             // TODO: sound effect, animation
         }

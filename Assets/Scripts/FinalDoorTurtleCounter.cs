@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class FinalDoorTurtleCounter : MonoBehaviour
 {
-    int turtlecounter;
+    static int turtlecounter;
     public PlayerController player;
+
     private void Start()
     {
         turtlecounter = 0;
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag=="Follower")
         {
             turtlecounter++;
-            if (turtlecounter==3)
+            if (turtlecounter==4)
                 player.TurtlesArrived();
         }   
     }
