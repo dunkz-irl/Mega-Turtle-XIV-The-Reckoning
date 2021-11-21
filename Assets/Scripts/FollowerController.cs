@@ -31,6 +31,11 @@ public class FollowerController : Turtle
 
         Debug.Log("Follow Initialised, isFollowingPlayer is " + isFollowingPlayer + ", ID is " + PlayerController.followers.Count);
 
+        if (PlayerController.endInitiated) // FIX: Null reference here
+        {
+            return;
+        }
+
         if (!isFollowingPlayer || targetTransform.GetComponent<PressurePlate>() != null)
         {
             if (FollowerID == 1) // If no other followers, follow the player
@@ -66,8 +71,14 @@ public class FollowerController : Turtle
     {
         if (isAwake)
         {
+            if (PlayerController.endInitiated == true) // For final follow
+                return;
+
+            float distanceToTarget = 0f;
+            
             turtleToTargetVector = targetTransform.position - transform.position;
-            float distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
+            distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
+
 
             // FIX: Checking this way feels messy
             if (targetTransform.tag == "Player" && distanceToTarget < targetStopDistance) // If closer than 4 units to the Player
@@ -96,6 +107,7 @@ public class FollowerController : Turtle
                 verticalInput = turtleToTargetVector.z;
                 hasReachedDestination = false;
             }
+            
 
             //Debug.Log("Stop distance: " + targetStopDistance + ". Distance to target: " + distanceToTarget);
 

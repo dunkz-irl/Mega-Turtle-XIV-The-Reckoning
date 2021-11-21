@@ -9,6 +9,7 @@ public class PlayerController : Turtle
     public static List<FollowerController> followers = new List<FollowerController>();
     public PressurePlate selectedPressurePlate;
     public bool isInPressurePlateTrigger = false;
+    public static bool endInitiated = false;
 
     private Turtle[] turtles;
 
@@ -135,23 +136,32 @@ public class PlayerController : Turtle
         }
         base.Update();
     }
-    private void StepOnFinalButton()
+
+    public void StepOnFinalButton()
     {
+        endInitiated = true;
+
         foreach (FollowerController follower in MoheyFollowers)
-                follower.FinalFollow(transform.position);
+                follower.FinalFollow(selectedPressurePlate.transform.position);        
     }
+
     public void TurtlesArrived()
     {
         win = true;
         WarningText.SetActive(false);
         Barrier.SetActive(false);
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag== "Barrier"&&!win)
             WarningText.SetActive(true);
         else if (other.tag=="end")
+        {
             Wintext.SetActive(true);
+            Cursor.visible = true;
+        }
+            
     }
     private void OnTriggerExit(Collider other)
     {
@@ -165,5 +175,8 @@ public class PlayerController : Turtle
         foreach (GameObject item in startMenu)
             item.SetActive(false);
         Time.timeScale = 1;
+
+        // Hide cursor
+        Cursor.visible = false;
     }
 }
