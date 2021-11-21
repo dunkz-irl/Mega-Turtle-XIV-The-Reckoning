@@ -58,6 +58,7 @@ public class FollowerController : Turtle
         Jump(); // Jump a bit to make it a bit more obvious they are following something
         JumpHeight = _jh;
         isGrounded = false;
+        base.animator.SetBool("isHiding", false);
     }
 
     // Set horizontalInput and verticalInput to move Turtle
@@ -87,6 +88,7 @@ public class FollowerController : Turtle
                 horizontalInput = 0;
                 verticalInput = 0;
                 hasReachedDestination = true;
+                base.animator.SetBool("isHiding", true);
             }
             else
             {
