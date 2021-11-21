@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Level1Mohey.unity
+    guid: 63e0bf0b506ca1a4982c7e96d0e912bc
   m_configObjects: {}

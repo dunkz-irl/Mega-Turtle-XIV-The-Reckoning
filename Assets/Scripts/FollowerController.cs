@@ -13,7 +13,7 @@ public class FollowerController : Turtle
     public bool isFollowingPlayer;
     private GameObject playerGO;
     [SerializeField] private Transform targetTransform;
-    public float targetStopDistance { get; set; } = 2f;
+    public float targetStopDistance = 2f;
     NavMeshAgent agent;
     private void Start()
     {
