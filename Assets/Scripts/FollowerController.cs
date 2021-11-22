@@ -26,8 +26,7 @@ public class FollowerController : Turtle
     public void InitFollowPlayer()
     {        
         isAwake = true;
-        PlayerController.followers.Add(this); 
-         AkSoundEngine.PostEvent("Pickupturtle", gameObject);//  Add this turtle follower to the list of followers on the PlayerController script
+        PlayerController.followers.Add(this); //  Add this turtle follower to the list of followers on the PlayerController script
         FollowerID = PlayerController.followers.Count;
 
         Debug.Log("Follow Initialised, isFollowingPlayer is " + isFollowingPlayer + ", ID is " + PlayerController.followers.Count);
@@ -91,7 +90,6 @@ public class FollowerController : Turtle
             }
             else if (targetTransform.tag == "Follower" && distanceToTarget < targetStopDistance)
             {
-               
                 horizontalInput = 0;
                 verticalInput = 0;
                 hasReachedDestination = true;
@@ -100,11 +98,8 @@ public class FollowerController : Turtle
             {
                 horizontalInput = 0;
                 verticalInput = 0;
-                if(hasReachedDestination == false){ AkSoundEngine.PostEvent("TILE", gameObject);}
                 hasReachedDestination = true;
                 base.animator.SetBool("isHiding", true);
-              
-               
             }
             else
             {
