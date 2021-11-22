@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="FOOTSTEPS" ID="{9CFDEB50-A91C-4F93-8274-F0562D81780E}">
+					<ChildrenList>
+						<Action Name="" ID="{9BCD861C-3A3C-4FA6-9518-92C29A66ED78}" ShortID="869910017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOOTSTEPS" ID="{B5897533-616C-4CBE-96A9-1EB19B4DB137}" WorkUnitID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TinyFootsteps" ID="{CBDBDC28-F79C-4179-AF4F-A0121141D3E3}">
+					<ChildrenList>
+						<Action Name="" ID="{B1E3CBED-F1AD-4C06-81C4-203C45A37E53}" ShortID="752655290">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="79"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOOTSTEPS_01" ID="{8110F6B5-6999-4A7A-8B2D-FA97B01D0616}" WorkUnitID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TILE" ID="{76F36497-4CF1-4668-BDB6-669BE1FDDE8A}">
+					<ChildrenList>
+						<Action Name="" ID="{5A2D5604-FECF-4EB3-BE68-CBDE05637502}" ShortID="699852884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BRS_Game_Scrabble_Tile_Bag_Drops_1" ID="{9B077C12-00DB-49E4-8DEB-50E841ED804D}" WorkUnitID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DOOR" ID="{CC59CF8B-EBC7-4360-BADB-92B0A2582E39}">
+					<ChildrenList>
+						<Action Name="" ID="{7C15250B-A058-429F-A16C-8D213F6E0B5D}" ShortID="930992725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DOORS" ID="{B0B8384C-6CD2-40C1-BE2A-12A59E4CDD2F}" WorkUnitID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAYMUSIC" ID="{BAB70F1D-50BC-4F88-9F66-657313A059FB}">
+					<ChildrenList>
+						<Action Name="" ID="{AB9B7FE1-83E5-4C93-A7CF-C87F6953B852}" ShortID="283310491">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="new" ID="{120F52AF-8933-4354-8431-495B2A43D253}" WorkUnitID="{9B285ED8-86E3-48AA-87CE-D7CCD877D232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PIckupturtle" ID="{02C6A79A-289F-422C-9D7B-F58AB962DED9}">
+					<ChildrenList>
+						<Action Name="" ID="{78CEC1DF-DB96-4517-9C18-EBA065EB647C}" ShortID="444391002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turtle pickup" ID="{D8278EB0-E528-406F-BA6A-39884B774786}" WorkUnitID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

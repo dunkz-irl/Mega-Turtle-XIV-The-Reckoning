@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\Downloads\Turtle Puzzle wwise\</ProjectRoot>
+		<SourceFilesRoot>E:\Downloads\Turtle Puzzle wwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Downloads\Turtle Puzzle wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Downloads\Turtle Puzzle wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2902294402">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1901001473" Language="SFX" Hash="198645735">
+			<ObjectPath>\SoundBanks\Default Work Unit\TURTLEPLAY</ObjectPath>
+			<ShortName>TURTLEPLAY</ShortName>
+			<Path>TURTLEPLAY.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1877847629" Name="DOOR" ObjectPath="\Events\Default Work Unit\DOOR" DurationType="OneShot" DurationMin="1.651044" DurationMax="1.966838">
+					<IncludedMemoryFiles>
+						<File Id="906588740" Language="SFX">
+							<ShortName>SPLC-0115_FX_Oneshot_Doors_Open_Medieval.wav</ShortName>
+							<Path>SFX\SPLC-0115_FX_Oneshot_Doors_Open_Medieval_63AB69FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="FOOTSTEPS" ObjectPath="\Events\Default Work Unit\FOOTSTEPS" DurationType="OneShot" DurationMin="0.184681" DurationMax="0.269326">
+					<IncludedMemoryFiles>
+						<File Id="144461611" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83A64C7D.wem</Path>
+						</File>
+						<File Id="550066863" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_32C17276.wem</Path>
+						</File>
+						<File Id="698682393" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83024E7F.wem</Path>
+						</File>
+						<File Id="874099906" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_34992163.wem</Path>
+						</File>
+						<File Id="1002006032" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_3099B73D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="228227559" Name="PIckupturtle" ObjectPath="\Events\Default Work Unit\PIckupturtle" DurationType="OneShot" DurationMin="0.133333" DurationMax="2.154667">
+					<IncludedMemoryFiles>
+						<File Id="148438891" Language="SFX">
+							<ShortName>PizzicatoStringGlock_SFXB.4.wav</ShortName>
+							<Path>SFX\PizzicatoStringGlock_SFXB.4_10C4C929.wem</Path>
+						</File>
+						<File Id="529633940" Language="SFX">
+							<ShortName>Drip_BW.59870.wav</ShortName>
+							<Path>SFX\Drip_BW.59870_10C4C929.wem</Path>
+						</File>
+						<File Id="706523935" Language="SFX">
+							<ShortName>WoodwindAccent_S08CT.966.wav</ShortName>
+							<Path>SFX\WoodwindAccent_S08CT.966_10C4C929.wem</Path>
+						</File>
+						<File Id="742162001" Language="SFX">
+							<ShortName>PizzicatoString_S08CT.168.wav</ShortName>
+							<Path>SFX\PizzicatoString_S08CT.168_CFE714F6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="417627684" Name="PLAYMUSIC" ObjectPath="\Events\Default Work Unit\PLAYMUSIC" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="201939245" Language="SFX">
+							<ShortName>Track 2 Red.wav</ShortName>
+							<Path>SFX\Track 2 Red_D79FB2B7.wem</Path>
+						</File>
+						<File Id="206170623" Language="SFX">
+							<ShortName>Track 7 Purple.wav</ShortName>
+							<Path>SFX\Track 7 Purple_D79FB2B7.wem</Path>
+						</File>
+						<File Id="561443316" Language="SFX">
+							<ShortName>Track 4 Green.wav</ShortName>
+							<Path>SFX\Track 4 Green_D79FB2B7.wem</Path>
+						</File>
+						<File Id="649756345" Language="SFX">
+							<ShortName>Track 1 Default.wav</ShortName>
+							<Path>SFX\Track 1 Default_D79FB2B7.wem</Path>
+						</File>
+						<File Id="681571922" Language="SFX">
+							<ShortName>Track 8 Light Blue.wav</ShortName>
+							<Path>SFX\Track 8 Light Blue_D79FB2B7.wem</Path>
+						</File>
+						<File Id="735465664" Language="SFX">
+							<ShortName>Track 5 Navy.wav</ShortName>
+							<Path>SFX\Track 5 Navy_D79FB2B7.wem</Path>
+						</File>
+						<File Id="797718385" Language="SFX">
+							<ShortName>Track 6 Yellow.wav</ShortName>
+							<Path>SFX\Track 6 Yellow_D79FB2B7.wem</Path>
+						</File>
+						<File Id="799622118" Language="SFX">
+							<ShortName>Track 3 Orange.wav</ShortName>
+							<Path>SFX\Track 3 Orange_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2637588553" Name="TILE" ObjectPath="\Events\Default Work Unit\TILE" DurationType="OneShot" DurationMin="0.895960" DurationMax="1.182226">
+					<IncludedMemoryFiles>
+						<File Id="667128561" Language="SFX">
+							<ShortName>BRS_Game_Scrabble_Tile_Bag_Drops_1.wav</ShortName>
+							<Path>SFX\BRS_Game_Scrabble_Tile_Bag_Drops_1_CB64040D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3134943772" Name="TinyFootsteps" ObjectPath="\Events\Default Work Unit\TinyFootsteps" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.178718">
+					<IncludedMemoryFiles>
+						<File Id="144461611" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83A64C7D.wem</Path>
+						</File>
+						<File Id="550066863" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_32C17276.wem</Path>
+						</File>
+						<File Id="698682393" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83024E7F.wem</Path>
+						</File>
+						<File Id="874099906" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_34992163.wem</Path>
+						</File>
+						<File Id="1002006032" Language="SFX">
+							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
+							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_3099B73D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<Triggers>
+				<Trigger Id="782826392" Name="Default" ObjectPath="\Triggers\Default Work Unit\Default"/>
+				<Trigger Id="881541897" Name="navy" ObjectPath="\Triggers\Default Work Unit\navy"/>
+				<Trigger Id="980603538" Name="red" ObjectPath="\Triggers\Default Work Unit\red"/>
+				<Trigger Id="1362796839" Name="orange" ObjectPath="\Triggers\Default Work Unit\orange"/>
+				<Trigger Id="1711688963" Name="lightBlue" ObjectPath="\Triggers\Default Work Unit\lightBlue"/>
+				<Trigger Id="2774173721" Name="yellow" ObjectPath="\Triggers\Default Work Unit\yellow"/>
+				<Trigger Id="3036078039" Name="purple" ObjectPath="\Triggers\Default Work Unit\purple"/>
+				<Trigger Id="4147287986" Name="green" ObjectPath="\Triggers\Default Work Unit\green"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -76,6 +76,4 @@ crashlytics-build.properties
 *.prof
 *.validationcache
 */Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
-*/WwiseProject/GeneratedSoundBanks
 Assets/Samples
-*.bnk

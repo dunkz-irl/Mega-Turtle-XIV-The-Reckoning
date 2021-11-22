@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F98CF2C-21D1-4C81-A326-F22EB4E6E294}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{6F98CF2C-21D1-4C81-A326-F22EB4E6E294}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Default" ID="{DBB73252-A300-4D01-869A-B17A77A49CA8}"/>
+				<Trigger Name="red" ID="{67C9FC83-94DB-436F-B89B-ECEA05885D44}"/>
+				<Trigger Name="orange" ID="{7EE1A7F3-A10A-486C-B1B7-491DE341A740}"/>
+				<Trigger Name="green" ID="{16257A21-9C2F-49D1-93F6-FFA559881A25}"/>
+				<Trigger Name="navy" ID="{79D0C7CF-DCCC-4F22-A476-5740F95AC5F8}"/>
+				<Trigger Name="yellow" ID="{11254233-93EB-4072-8A46-90CB60B56BF9}"/>
+				<Trigger Name="purple" ID="{C89F187C-54A2-4BA0-BED2-64DD6023FF38}"/>
+				<Trigger Name="lightBlue" ID="{44EE89C1-441E-4D1D-A184-24CADF6A0D4D}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

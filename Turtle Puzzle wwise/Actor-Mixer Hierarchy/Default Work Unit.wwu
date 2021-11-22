@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7CBC37EF-6F1C-4E2A-8E3D-A456A3D9CC76}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="FOOTSTEPS" ID="{D31DFB2A-A129-421E-AB21-A71C42DFBCB5}" ShortID="1060573574">
+					<ChildrenList>
+						<RandomSequenceContainer Name="FOOTSTEPS" ID="{B5897533-616C-4CBE-96A9-1EB19B4DB137}" ShortID="206947614">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{4C660D17-9845-46AC-966E-AC001F0A9381}" ShortID="554691226">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{6EF07EDA-B1FC-452D-B9D4-C97B12936681}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.36971412037037"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.55439467592592"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="698682393"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{6EF07EDA-B1FC-452D-B9D4-C97B12936681}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_01" ID="{C4C2FBBF-8331-439A-89D3-4FED030EE24D}" ShortID="671434873">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{D68BE39D-6CD1-48A1-859A-1156EB528853}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.65478298611111"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.88563368055556"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002006032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{D68BE39D-6CD1-48A1-859A-1156EB528853}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_02" ID="{804E77E2-16F3-4E60-A1A7-B6D098CA9ECA}" ShortID="874725106">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{1D859399-1E4A-476F-B785-F21BE244779C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.97063194444444"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.23995775462963"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874099906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{1D859399-1E4A-476F-B785-F21BE244779C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_03" ID="{58875805-3447-4A5E-904B-2A6BD3F7662A}" ShortID="116066774">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{A42E8ED3-D5A3-438B-8E3C-4D74AC6D5F36}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.715637152777778"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.923402777777778"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550066863"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{A42E8ED3-D5A3-438B-8E3C-4D74AC6D5F36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_04" ID="{7734D4AA-B0BA-45B7-872B-CAA5EDBA190A}" ShortID="721534962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{80FC0868-FCB9-47B2-B40F-37C529A0CD65}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.61701388888889"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.81708449074074"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="144461611"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{80FC0868-FCB9-47B2-B40F-37C529A0CD65}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FOOTSTEPS_01" ID="{8110F6B5-6999-4A7A-8B2D-FA97B01D0616}" ShortID="212771765">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>710</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{1E3CF041-02DA-4BF5-AB9E-159EC111E2A9}" ShortID="1039485588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{1758EAE0-D922-44E8-8548-F5D8894A9D33}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.36971412037037"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.55439467592592"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="698682393"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{1758EAE0-D922-44E8-8548-F5D8894A9D33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_01" ID="{F1618699-8481-4AA5-8FF6-B6630FC26A52}" ShortID="537848683">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{64CD1A2C-7C8A-4044-AF4C-C3DEFC870FD5}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.65478298611111"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.88563368055556"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002006032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{64CD1A2C-7C8A-4044-AF4C-C3DEFC870FD5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_02" ID="{F8315566-7CEF-4794-BEC3-A9250A314D00}" ShortID="255561333">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{CADF4C46-BDB9-4C69-8DFB-40F84EC5F762}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.97063194444444"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.23995775462963"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874099906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{CADF4C46-BDB9-4C69-8DFB-40F84EC5F762}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_03" ID="{DF08B5F7-D9F1-4D0C-AB42-595873C88450}" ShortID="987856102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{9E8DFAAB-4496-4D0E-BF3F-2DD4C204DF47}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.715637152777778"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.923402777777778"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550066863"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{9E8DFAAB-4496-4D0E-BF3F-2DD4C204DF47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_04" ID="{9E50AC1C-DD6C-46F1-86AE-EEBBF52329D3}" ShortID="838837723">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{5F2E4FF0-AAF2-46E7-B655-5610D5325249}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.61701388888889"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.81708449074074"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="144461611"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes" ID="{5F2E4FF0-AAF2-46E7-B655-5610D5325249}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LEVER" ID="{F3D62B3B-944B-4EEC-B502-7E8BCB1A768D}" ShortID="745883110">
+					<ChildrenList>
+						<RandomSequenceContainer Name="TILES" ID="{8A2AA708-6BDA-430F-A6B9-C98A44040C4E}" ShortID="375402626">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8110CC72-80C5-45F2-8A4E-CF273C06A7D4}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BRS_Game_Scrabble_Tile_Bag_Drops_1" ID="{9B077C12-00DB-49E4-8DEB-50E841ED804D}" ShortID="768892249">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C1239BE4-EA7C-490A-ACE6-D6232CAA7699}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-278"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BRS_Game_Scrabble_Tile_Bag_Drops_1" ID="{13F2D886-11C8-438C-A816-0B59F579D645}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.143834719072815"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.15067775258252"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BRS_Game_Scrabble_Tile_Bag_Drops_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="667128561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BRS_Game_Scrabble_Tile_Bag_Drops_1" ID="{13F2D886-11C8-438C-A816-0B59F579D645}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DOORS" ID="{B0B8384C-6CD2-40C1-BE2A-12A59E4CDD2F}" ShortID="299527795">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F4CCC1AC-7BDB-4C9A-B66D-074A21CE32F3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DOOR" ID="{DD0751F4-6AEA-48AA-9892-D6AA245EA777}" ShortID="343588182">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0ABACCCD-FC78-485B-90AE-6495BEE84A02}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-177"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SPLC-0115_FX_Oneshot_Doors_Open_Medieval" ID="{36A476F7-EDAB-49AE-B492-A21BBCBCEEC2}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.103656920077973"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.87934502923977"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SPLC-0115_FX_Oneshot_Doors_Open_Medieval.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="906588740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SPLC-0115_FX_Oneshot_Doors_Open_Medieval" ID="{36A476F7-EDAB-49AE-B492-A21BBCBCEEC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="turle happy" ID="{93A2E7BD-2BD1-44FB-904B-B65AD18862F0}" ShortID="500408280">
+					<ChildrenList>
+						<RandomSequenceContainer Name="turtle pickup" ID="{D8278EB0-E528-406F-BA6A-39884B774786}" ShortID="228714007">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D1A6A31E-AA70-45E3-AACC-1566A8CB4A4E}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WoodwindAccent_S08CT_966" ID="{7FC9283C-0A78-4BD2-8AC4-6442CC30DD69}" ShortID="678890825">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{363BBA90-599B-4E99-9A93-180916B85143}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WoodwindAccent_S08CT_966" ID="{91A66C09-41C2-450C-8F8D-36D72A1DFB9D}">
+											<Language>SFX</Language>
+											<AudioFile>WoodwindAccent_S08CT.966.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="706523935"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WoodwindAccent_S08CT_966" ID="{91A66C09-41C2-450C-8F8D-36D72A1DFB9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Drip_BW_59870" ID="{60322408-D0A9-4A71-B256-AB602AA710E0}" ShortID="924175773">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drip_BW_59870" ID="{E097C051-8402-4561-A341-7D839BFACFD0}">
+											<Language>SFX</Language>
+											<AudioFile>Drip_BW.59870.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="529633940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Drip_BW_59870" ID="{E097C051-8402-4561-A341-7D839BFACFD0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PizzicatoStringGlock_SFXB_4" ID="{69A1025E-CCE9-407E-B9AA-D80DBF3F7AB0}" ShortID="55413475">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1F35A004-E998-431E-956A-53A913117565}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PizzicatoStringGlock_SFXB_4" ID="{81AEE159-A4D3-4722-98CD-FAFD16924488}">
+											<Language>SFX</Language>
+											<AudioFile>PizzicatoStringGlock_SFXB.4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="148438891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PizzicatoStringGlock_SFXB_4" ID="{81AEE159-A4D3-4722-98CD-FAFD16924488}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PizzicatoString_S08CT_168" ID="{4742666E-ACC6-411E-B4CF-3715675B5E9D}" ShortID="496897335">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DADCEC4F-FA41-4549-B565-DA3318959EAB}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AD07E0B3-F4A0-4BCA-89D1-018CEE48FEDE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{98872BE8-BC4A-45E7-A1FB-CC570F2E90F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PizzicatoString_S08CT_168" ID="{63F10B33-0320-49B2-9FB1-D957343ECEE1}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.46049122807018"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PizzicatoString_S08CT.168.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="742162001"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PizzicatoString_S08CT_168" ID="{63F10B33-0320-49B2-9FB1-D957343ECEE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
