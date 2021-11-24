@@ -29,7 +29,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{130B7C1B-EA9E-4798-9734-DF659AC42A3C}">
-									<ReferenceList/>
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>
@@ -4480,44 +4479,13 @@
 						<MusicPlaylistItem Name="" ID="{F74BDEA9-AB3D-4BCE-9EBA-64C2F92C148C}" ShortID="73959282">
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
-								<Property Name="PlayMode" Type="int16" Value="2"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{E2B34D03-02A9-4B52-87F0-4F1BB22FFA30}" ShortID="1058503189">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="Green" ID="{CD62FC9A-8886-4521-AF7D-9F28DE597471}"/>
-								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{3870597B-0503-49ED-9573-27668E0D685C}" ShortID="755071977">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="lightblue" ID="{D13CCAA1-C2E4-40B4-9531-9ED593ECD9B7}"/>
-								</MusicPlaylistItem>
 								<MusicPlaylistItem Name="" ID="{CD6AA9FA-6B58-4FBE-9C6F-252695ADBBA1}" ShortID="538052009">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="Music segment" ID="{4CAB92D1-AA29-4C05-8E65-707A2248D35E}"/>
-								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{5A6A8F2F-BECF-46A5-A684-E4D32BA6B70D}" ShortID="252840334">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="Navy" ID="{D9483159-5D41-477E-98EF-DFA7ED192015}"/>
-								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{ADDC3E4F-D03C-4051-A654-958427B358DA}" ShortID="1005684093">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="Orange" ID="{FAEC7656-2D90-4808-AE25-1AD1E8618F3D}"/>
-								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{0A552BED-A811-4DE3-A202-D2D71CAEF242}" ShortID="703251519">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="purple" ID="{322CFADB-3FF1-44F0-A8B9-2A3134715D0C}"/>
 								</MusicPlaylistItem>
 								<MusicPlaylistItem Name="" ID="{CC7CBF25-D6A8-47CD-B8F6-0814CDD31769}" ShortID="108951674">
 									<PropertyList>
@@ -4525,11 +4493,41 @@
 									</PropertyList>
 									<SegmentRef Name="Red" ID="{1AB73F88-2AAA-4A57-B505-10E76357F41E}"/>
 								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{ADDC3E4F-D03C-4051-A654-958427B358DA}" ShortID="1005684093">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Orange" ID="{FAEC7656-2D90-4808-AE25-1AD1E8618F3D}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{E2B34D03-02A9-4B52-87F0-4F1BB22FFA30}" ShortID="1058503189">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Green" ID="{CD62FC9A-8886-4521-AF7D-9F28DE597471}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{5A6A8F2F-BECF-46A5-A684-E4D32BA6B70D}" ShortID="252840334">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Navy" ID="{D9483159-5D41-477E-98EF-DFA7ED192015}"/>
+								</MusicPlaylistItem>
 								<MusicPlaylistItem Name="" ID="{64E9F568-C874-4D46-B45C-43808EF006C9}" ShortID="424206072">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="yellow" ID="{43761849-E54D-41AC-BF5D-CA26C8FCDCF9}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{0A552BED-A811-4DE3-A202-D2D71CAEF242}" ShortID="703251519">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="purple" ID="{322CFADB-3FF1-44F0-A8B9-2A3134715D0C}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{3870597B-0503-49ED-9573-27668E0D685C}" ShortID="755071977">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="lightblue" ID="{D13CCAA1-C2E4-40B4-9531-9ED593ECD9B7}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

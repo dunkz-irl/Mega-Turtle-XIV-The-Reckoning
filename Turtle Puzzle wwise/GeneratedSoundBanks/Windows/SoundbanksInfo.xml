@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>E:\Downloads\Turtle Puzzle wwise\</ProjectRoot>
-		<SourceFilesRoot>E:\Downloads\Turtle Puzzle wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Downloads\Turtle Puzzle wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Downloads/cascade-prototyp-1/GJL-Game-Parade-Fall-2021/Turtle Puzzle wwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Downloads/cascade-prototyp-1/GJL-Game-Parade-Fall-2021/Turtle Puzzle wwise/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Downloads/cascade-prototyp-1/GJL-Game-Parade-Fall-2021/Turtle Puzzle wwise/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Downloads\Turtle Puzzle wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Downloads/cascade-prototyp-1/GJL-Game-Parade-Fall-2021/Turtle Puzzle wwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1901001473" Language="SFX" Hash="198645735">
+		<SoundBank Id="1901001473" Language="SFX" Hash="1365708880">
 			<ObjectPath>\SoundBanks\Default Work Unit\TURTLEPLAY</ObjectPath>
 			<ShortName>TURTLEPLAY</ShortName>
 			<Path>TURTLEPLAY.bnk</Path>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="906588740" Language="SFX">
 							<ShortName>SPLC-0115_FX_Oneshot_Doors_Open_Medieval.wav</ShortName>
-							<Path>SFX\SPLC-0115_FX_Oneshot_Doors_Open_Medieval_63AB69FE.wem</Path>
+							<Path>SFX/SPLC-0115_FX_Oneshot_Doors_Open_Medieval_63AB69FE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,23 +33,23 @@
 					<IncludedMemoryFiles>
 						<File Id="144461611" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83A64C7D.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83A64C7D.wem</Path>
 						</File>
 						<File Id="550066863" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_32C17276.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_32C17276.wem</Path>
 						</File>
 						<File Id="698682393" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83024E7F.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83024E7F.wem</Path>
 						</File>
 						<File Id="874099906" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_34992163.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_34992163.wem</Path>
 						</File>
 						<File Id="1002006032" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_3099B73D.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_3099B73D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,19 +57,19 @@
 					<IncludedMemoryFiles>
 						<File Id="148438891" Language="SFX">
 							<ShortName>PizzicatoStringGlock_SFXB.4.wav</ShortName>
-							<Path>SFX\PizzicatoStringGlock_SFXB.4_10C4C929.wem</Path>
+							<Path>SFX/PizzicatoStringGlock_SFXB.4_10C4C929.wem</Path>
 						</File>
 						<File Id="529633940" Language="SFX">
 							<ShortName>Drip_BW.59870.wav</ShortName>
-							<Path>SFX\Drip_BW.59870_10C4C929.wem</Path>
+							<Path>SFX/Drip_BW.59870_10C4C929.wem</Path>
 						</File>
 						<File Id="706523935" Language="SFX">
 							<ShortName>WoodwindAccent_S08CT.966.wav</ShortName>
-							<Path>SFX\WoodwindAccent_S08CT.966_10C4C929.wem</Path>
+							<Path>SFX/WoodwindAccent_S08CT.966_10C4C929.wem</Path>
 						</File>
 						<File Id="742162001" Language="SFX">
 							<ShortName>PizzicatoString_S08CT.168.wav</ShortName>
-							<Path>SFX\PizzicatoString_S08CT.168_CFE714F6.wem</Path>
+							<Path>SFX/PizzicatoString_S08CT.168_CFE714F6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -77,35 +77,35 @@
 					<IncludedMemoryFiles>
 						<File Id="201939245" Language="SFX">
 							<ShortName>Track 2 Red.wav</ShortName>
-							<Path>SFX\Track 2 Red_D79FB2B7.wem</Path>
+							<Path>SFX/Track 2 Red_D79FB2B7.wem</Path>
 						</File>
 						<File Id="206170623" Language="SFX">
 							<ShortName>Track 7 Purple.wav</ShortName>
-							<Path>SFX\Track 7 Purple_D79FB2B7.wem</Path>
+							<Path>SFX/Track 7 Purple_D79FB2B7.wem</Path>
 						</File>
 						<File Id="561443316" Language="SFX">
 							<ShortName>Track 4 Green.wav</ShortName>
-							<Path>SFX\Track 4 Green_D79FB2B7.wem</Path>
+							<Path>SFX/Track 4 Green_D79FB2B7.wem</Path>
 						</File>
 						<File Id="649756345" Language="SFX">
 							<ShortName>Track 1 Default.wav</ShortName>
-							<Path>SFX\Track 1 Default_D79FB2B7.wem</Path>
+							<Path>SFX/Track 1 Default_D79FB2B7.wem</Path>
 						</File>
 						<File Id="681571922" Language="SFX">
 							<ShortName>Track 8 Light Blue.wav</ShortName>
-							<Path>SFX\Track 8 Light Blue_D79FB2B7.wem</Path>
+							<Path>SFX/Track 8 Light Blue_D79FB2B7.wem</Path>
 						</File>
 						<File Id="735465664" Language="SFX">
 							<ShortName>Track 5 Navy.wav</ShortName>
-							<Path>SFX\Track 5 Navy_D79FB2B7.wem</Path>
+							<Path>SFX/Track 5 Navy_D79FB2B7.wem</Path>
 						</File>
 						<File Id="797718385" Language="SFX">
 							<ShortName>Track 6 Yellow.wav</ShortName>
-							<Path>SFX\Track 6 Yellow_D79FB2B7.wem</Path>
+							<Path>SFX/Track 6 Yellow_D79FB2B7.wem</Path>
 						</File>
 						<File Id="799622118" Language="SFX">
 							<ShortName>Track 3 Orange.wav</ShortName>
-							<Path>SFX\Track 3 Orange_D79FB2B7.wem</Path>
+							<Path>SFX/Track 3 Orange_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -113,7 +113,7 @@
 					<IncludedMemoryFiles>
 						<File Id="667128561" Language="SFX">
 							<ShortName>BRS_Game_Scrabble_Tile_Bag_Drops_1.wav</ShortName>
-							<Path>SFX\BRS_Game_Scrabble_Tile_Bag_Drops_1_CB64040D.wem</Path>
+							<Path>SFX/BRS_Game_Scrabble_Tile_Bag_Drops_1_CB64040D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -121,23 +121,23 @@
 					<IncludedMemoryFiles>
 						<File Id="144461611" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83A64C7D.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83A64C7D.wem</Path>
 						</File>
 						<File Id="550066863" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_32C17276.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_32C17276.wem</Path>
 						</File>
 						<File Id="698682393" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83024E7F.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_83024E7F.wem</Path>
 						</File>
 						<File Id="874099906" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_34992163.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_34992163.wem</Path>
 						</File>
 						<File Id="1002006032" Language="SFX">
 							<ShortName>SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes.wav</ShortName>
-							<Path>SFX\SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_3099B73D.wem</Path>
+							<Path>SFX/SPLC-6738_FX_Oneshot_Footsteps_Footsteps_Concrete_Shoes_3099B73D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
