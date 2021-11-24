@@ -26,16 +26,17 @@ public class FollowerController : Turtle
     public void InitFollowPlayer()
     {        
         isAwake = true;
-        PlayerController.followers.Add(this); 
-         AkSoundEngine.PostEvent("Pickupturtle", gameObject);//  Add this turtle follower to the list of followers on the PlayerController script
+        PlayerController.followers.Add(this); //  Add this turtle follower to the list of followers on the PlayerController script
+
         FollowerID = PlayerController.followers.Count;
+
+        if (!PlayerController.endInitiated)
+            AkSoundEngine.PostEvent("Pickupturtle", gameObject);
 
         Debug.Log("Follow Initialised, isFollowingPlayer is " + isFollowingPlayer + ", ID is " + PlayerController.followers.Count);
 
-        if (PlayerController.endInitiated) // FIX: Null reference here
-        {
-            return;
-        }
+        if (PlayerController.endInitiated) // FIX: Null reference here        
+            return;        
 
         if (!isFollowingPlayer || targetTransform.GetComponent<PressurePlate>() != null)
         {

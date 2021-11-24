@@ -8,6 +8,6 @@ public class DoorAnim : MonoBehaviour
 
     public void OnFinishAnim()
     {
-        ParentDoor.OnAnimFinish();
+        ParentDoor.OnAnimFinish?.Invoke();
     }
 }
