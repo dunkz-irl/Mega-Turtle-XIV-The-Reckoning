@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f0014659ab299047a87b0016dcd42d63
     GuidInternal: 
-    m_lastTime: -8585640865964775808
+    m_lastTime: -8585638543250520919
     List:
     - name: TURTLEPLAY
       guid: 60833a9b31f1894abe203733d16fdd47
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 79b27ea1b00b3b4e8887f8fe3dab0317
     GuidInternal: 
-    m_lastTime: -8585640868284775808
+    m_lastTime: -8585638541377360103
     List:
     - name: DOOR
       guid: 8bcf59ccc7eb6043badb92b0a2582e39
@@ -130,6 +130,204 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.269326
       minDuration: 0.184681
+    - name: Music Layers
+      guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      id: 1574431704
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      Path: Events\Default Work Unit\Music Layers
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Mute
+      guid: c4650a6732bdbb41af0c833679384632
+      id: 2974103762
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      Path: Events\Default Work Unit\Music Layers\Mute
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Mute_Track_2_Red
+      guid: 93cc5fb7d299ad48893e5b878c49c79a
+      id: 3205274741
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_2_Red
+        ObjectType: 3
+        guid: 93cc5fb7d299ad48893e5b878c49c79a
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_2_Red
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Track_3_Orange
+      guid: ce7fa9a45c5bfa4f87566bd99a1c76d2
+      id: 688199485
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_3_Orange
+        ObjectType: 3
+        guid: ce7fa9a45c5bfa4f87566bd99a1c76d2
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_3_Orange
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Track_4_Green
+      guid: 6301987aa981284eaae0283133d52652
+      id: 3676006031
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_4_Green
+        ObjectType: 3
+        guid: 6301987aa981284eaae0283133d52652
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_4_Green
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Track_5_Navy
+      guid: b7a06f68d92c0741a235a870a81c8e18
+      id: 3285236805
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_5_Navy
+        ObjectType: 3
+        guid: b7a06f68d92c0741a235a870a81c8e18
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_5_Navy
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Track_6_Yellow
+      guid: 45661649a5954b45b7ea24134c5a9699
+      id: 3125675012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_6_Yellow
+        ObjectType: 3
+        guid: 45661649a5954b45b7ea24134c5a9699
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_6_Yellow
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Track_7_Purple
+      guid: 3b4e170e3ca72841894484903336713b
+      id: 118877621
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_7_Purple
+        ObjectType: 3
+        guid: 3b4e170e3ca72841894484903336713b
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_7_Purple
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Track_8_Light_Blue
+      guid: aae90f32a9dd81439537de49c1c722cb
+      id: 1068169361
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Mute
+        ObjectType: 4
+        guid: c4650a6732bdbb41af0c833679384632
+      - ElementName: Mute_Track_8_Light_Blue
+        ObjectType: 3
+        guid: aae90f32a9dd81439537de49c1c722cb
+      Path: Events\Default Work Unit\Music Layers\Mute\Mute_Track_8_Light_Blue
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: PIckupturtle
       guid: 9aa7c6029f282c429d7bf58ab962ded9
       id: 228227559
@@ -162,8 +360,8 @@ MonoBehaviour:
         guid: 1d0fb7babc50884f9f66657313a059fb
       Path: Events\Default Work Unit\PLAYMUSIC
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 40.486652
+      minDuration: 40.486652
     - name: TILE
       guid: 9764f376f14c6846bdb6669be1fdde8a
       id: 2637588553
@@ -197,6 +395,210 @@ MonoBehaviour:
       Path: Events\Default Work Unit\TinyFootsteps
       maxAttenuation: 0
       maxDuration: 0.178718
+      minDuration: 0
+    - name: Unmute
+      guid: 10cec6f50509c64c97eca73b10051a0c
+      id: 2156697475
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      Path: Events\Default Work Unit\Music Layers\Unmute
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnMute_All_Layers
+      guid: 694d9c5414312940a910e3452f0e4d5c
+      id: 669792124
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_All_Layers
+        ObjectType: 3
+        guid: 694d9c5414312940a910e3452f0e4d5c
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_All_Layers
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_2_Red
+      guid: 52e1ee8bf8e5834ebcf681a1ccefa394
+      id: 2860320084
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_2_Red
+        ObjectType: 3
+        guid: 52e1ee8bf8e5834ebcf681a1ccefa394
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_2_Red
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_3_Orange
+      guid: e4d58b8db15fa4459e8bf266325034d8
+      id: 3426039346
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_3_Orange
+        ObjectType: 3
+        guid: e4d58b8db15fa4459e8bf266325034d8
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_3_Orange
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_4_Green
+      guid: 2f6988e359a5b14a8264887ef65eeeca
+      id: 4053054946
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_4_Green
+        ObjectType: 3
+        guid: 2f6988e359a5b14a8264887ef65eeeca
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_4_Green
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_5_Navy
+      guid: 3efcbd67784e2c499442545a284d9f04
+      id: 1839085742
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_5_Navy
+        ObjectType: 3
+        guid: 3efcbd67784e2c499442545a284d9f04
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_5_Navy
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_6_Yellow
+      guid: 5f75c7b1049a1749b138e9b1b3af5f8c
+      id: 2511418079
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_6_Yellow
+        ObjectType: 3
+        guid: 5f75c7b1049a1749b138e9b1b3af5f8c
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_6_Yellow
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_7_Purple
+      guid: aae47a62706c944eb28b69e5b832fba2
+      id: 678522278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_7_Purple
+        ObjectType: 3
+        guid: aae47a62706c944eb28b69e5b832fba2
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_7_Purple
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Track_8_Light_Blue
+      guid: 915be00a899f8c4bbf3a86b8e5cf7796
+      id: 99018642
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 79b27ea1b00b3b4e8887f8fe3dab0317
+      - ElementName: Music Layers
+        ObjectType: 4
+        guid: 965091e08d3aeb47b5ef3eb2875b0b81
+      - ElementName: Unmute
+        ObjectType: 4
+        guid: 10cec6f50509c64c97eca73b10051a0c
+      - ElementName: UnMute_Track_8_Light_Blue
+        ObjectType: 3
+        guid: 915be00a899f8c4bbf3a86b8e5cf7796
+      Path: Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_8_Light_Blue
+      maxAttenuation: 0
+      maxDuration: 0
       minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -400,7 +802,7 @@ MonoBehaviour:
         ObjectType: 14
         guid: 33422511eb9372408a4690cb60b56bf9
       Path: Triggers\Default Work Unit\yellow
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 0200000003000000060000000700000013000000
   ExpandedWaapiItemIds: 020000000300000005000000060000000700000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

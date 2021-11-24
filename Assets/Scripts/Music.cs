@@ -11,7 +11,7 @@ public class Music : MonoBehaviour
          DontDestroyOnLoad(gameObject);
      if (instance == null){
          instance = gameObject;
-          AkSoundEngine.PostEvent("PLAYMUSIC", gameObject);
+          AkSoundEngine.PostEvent("PLAYMUSIC", GameObject.FindGameObjectWithTag("Player"));
      }
      else{
          Destroy(gameObject);

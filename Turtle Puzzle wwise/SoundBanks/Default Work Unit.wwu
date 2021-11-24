@@ -9,6 +9,7 @@
 						<ObjectRef Name="PIckupturtle" ID="{02C6A79A-289F-422C-9D7B-F58AB962DED9}" WorkUnitID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DOOR" ID="{CC59CF8B-EBC7-4360-BADB-92B0A2582E39}" WorkUnitID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TILE" ID="{76F36497-4CF1-4668-BDB6-669BE1FDDE8A}" WorkUnitID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music Layers" ID="{E0915096-3A8D-47EB-B5EF-3EB2875B0B81}" WorkUnitID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PLAYMUSIC" ID="{BAB70F1D-50BC-4F88-9F66-657313A059FB}" WorkUnitID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FOOTSTEPS" ID="{9CFDEB50-A91C-4F93-8274-F0562D81780E}" WorkUnitID="{A17EB279-0BB0-4E3B-8887-F8FE3DAB0317}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

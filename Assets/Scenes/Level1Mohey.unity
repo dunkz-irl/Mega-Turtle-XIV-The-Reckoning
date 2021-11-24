@@ -383,6 +383,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 4441543468791684604}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 54f6cffe377219342ac01250a5534614,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a067455d05ccd14db448544cd9bcc43,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -1145,7 +1157,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65093602}
-  m_LocalRotation: {x: 0.22766976, y: 0.08940933, z: -0.0209984, w: 0.96939754}
+  m_LocalRotation: {x: 0.22766976, y: 0.08940934, z: -0.020998403, w: 0.96939754}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2288,6 +2300,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 859199879}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bd8e80dfcea33344ace6d02b9f60edf,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 5af9d69335a698f49a2b0ed75d9d7c52,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -7506,8 +7530,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421859779}
-  m_LocalRotation: {x: 0.51613843, y: -0.14317708, z: 0.08799025, w: 0.8398567}
-  m_LocalPosition: {x: 2.566586, y: 19.089855, z: -11.879443}
+  m_LocalRotation: {x: 0.23943211, y: 0.0891476, z: -0.022083268, w: 0.9665595}
+  m_LocalPosition: {x: -4.2882977, y: 12.17366, z: -24.413364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10502,6 +10526,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 1856504379}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b7e586439f4afb4c977e6e962b668cd,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 87913735567a7c64d84d4559fc2f97f0,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -12612,6 +12648,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 866628619550105139}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 7fcbc2f7bbf138442a519d5c4b72f563,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 974539924571b1742a35ceae34bceda4,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -14407,7 +14455,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854636650}
-  m_LocalRotation: {x: 0.50890255, y: -0.1439279, z: 0.086756706, w: 0.84426075}
+  m_LocalRotation: {x: 0.5089026, y: -0.14392784, z: 0.08675666, w: 0.8442608}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16674,6 +16722,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 1771335796}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: af0859a94c7f21745841ffe9b98de40f,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ba37f61ae91cd84c8143aeef9962b9a,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -17441,6 +17501,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 1162262792}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 7a0940cb27a882e43afc4cae55bacdad,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b48af2972d94ad74390d6bc5ec8e77f3,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -17752,7 +17824,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993481806}
-  m_LocalRotation: {x: 0.24526492, y: 0.08901258, z: -0.022621235, w: 0.96509594}
+  m_LocalRotation: {x: 0.24526493, y: 0.089012615, z: -0.022621248, w: 0.96509594}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -18447,6 +18519,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[0]
       value: 
       objectReference: {fileID: 1856969146}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0a4c3da0baf41714dbebca321ea5d357,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 698446d72a8e2d14fb7dfb0db30c5d95,
+        type: 2}
     - target: {fileID: 7531648850069774033, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Name
@@ -20184,7 +20268,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148015171}
-  m_LocalRotation: {x: 0.4935027, y: -0.14547808, z: 0.084131345, w: 0.8533541}
+  m_LocalRotation: {x: 0.4935027, y: -0.14547807, z: 0.084131345, w: 0.8533541}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -22924,7 +23008,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322396366}
-  m_LocalRotation: {x: 0.524175, y: -0.14232597, z: 0.08936027, w: 0.8348645}
+  m_LocalRotation: {x: 0.52417505, y: -0.14232606, z: 0.08936035, w: 0.8348644}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -24200,6 +24284,18 @@ PrefabInstance:
       propertyPath: ConnectedDoors.Array.data[2]
       value: 
       objectReference: {fileID: 2037216644}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerMuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d85dd72feaa2ae346990a27120bcefd8,
+        type: 2}
+    - target: {fileID: 3566389727722055018, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
+        type: 3}
+      propertyPath: MusicLayerUnmuteEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d85dd72feaa2ae346990a27120bcefd8,
+        type: 2}
     - target: {fileID: 7313241491007307095, guid: 9b4dfe0cd12319c4c85de2f8694172eb,
         type: 3}
       propertyPath: m_Materials.Array.data[1]

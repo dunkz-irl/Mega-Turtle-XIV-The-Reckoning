@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1901001473" Language="SFX" Hash="4057298167">
+		<SoundBank Id="1901001473" Language="SFX" Hash="2429458309">
 			<ObjectPath>\SoundBanks\Default Work Unit\TURTLEPLAY</ObjectPath>
 			<ShortName>TURTLEPLAY</ShortName>
 			<Path>TURTLEPLAY.bnk</Path>
@@ -53,6 +53,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3205274741" Name="Mute_Track_2_Red" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_2_Red" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="688199485" Name="Mute_Track_3_Orange" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_3_Orange" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3676006031" Name="Mute_Track_4_Green" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_4_Green" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3285236805" Name="Mute_Track_5_Navy" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_5_Navy" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3125675012" Name="Mute_Track_6_Yellow" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_6_Yellow" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="118877621" Name="Mute_Track_7_Purple" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_7_Purple" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1068169361" Name="Mute_Track_8_Light_Blue" ObjectPath="\Events\Default Work Unit\Music Layers\Mute\Mute_Track_8_Light_Blue" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="228227559" Name="PIckupturtle" ObjectPath="\Events\Default Work Unit\PIckupturtle" DurationType="OneShot" DurationMin="0.133333" DurationMax="2.154667">
 					<IncludedMemoryFiles>
 						<File Id="148438891" Language="SFX">
@@ -141,17 +148,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="669792124" Name="UnMute_All_Layers" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_All_Layers" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2860320084" Name="UnMute_Track_2_Red" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_2_Red" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3426039346" Name="UnMute_Track_3_Orange" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_3_Orange" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4053054946" Name="UnMute_Track_4_Green" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_4_Green" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1839085742" Name="UnMute_Track_5_Navy" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_5_Navy" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2511418079" Name="UnMute_Track_6_Yellow" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_6_Yellow" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="678522278" Name="UnMute_Track_7_Purple" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_7_Purple" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="99018642" Name="UnMute_Track_8_Light_Blue" ObjectPath="\Events\Default Work Unit\Music Layers\Unmute\UnMute_Track_8_Light_Blue" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
-			<Triggers>
-				<Trigger Id="782826392" Name="Default" ObjectPath="\Triggers\Default Work Unit\Default"/>
-				<Trigger Id="881541897" Name="navy" ObjectPath="\Triggers\Default Work Unit\navy"/>
-				<Trigger Id="980603538" Name="red" ObjectPath="\Triggers\Default Work Unit\red"/>
-				<Trigger Id="1362796839" Name="orange" ObjectPath="\Triggers\Default Work Unit\orange"/>
-				<Trigger Id="1711688963" Name="lightBlue" ObjectPath="\Triggers\Default Work Unit\lightBlue"/>
-				<Trigger Id="2774173721" Name="yellow" ObjectPath="\Triggers\Default Work Unit\yellow"/>
-				<Trigger Id="3036078039" Name="purple" ObjectPath="\Triggers\Default Work Unit\purple"/>
-				<Trigger Id="4147287986" Name="green" ObjectPath="\Triggers\Default Work Unit\green"/>
-			</Triggers>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

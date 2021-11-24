@@ -15,6 +15,12 @@ public class PressurePlate : MonoBehaviour
                 door.checkLockStatus(value);
             }            
             isOccupied = value;
+
+            // Music layers
+            if (value == false)
+                MusicLayerMuteEvent.Post(pc.gameObject);
+            else if (value == true)
+                MusicLayerUnmuteEvent.Post(pc.gameObject);
         }
             
     }
@@ -22,6 +28,8 @@ public class PressurePlate : MonoBehaviour
     public FollowerController Occupier;
     public DoorPlaceholder[] ConnectedDoors;
     public Transform FollowPoint;
+    public AK.Wwise.Event MusicLayerMuteEvent;
+    public AK.Wwise.Event MusicLayerUnmuteEvent;
 
     private PlayerController pc;
 
