@@ -23,8 +23,20 @@ public class BrownPressurePlate : MonoBehaviour
                 follower.isAwake = false;
                 follower.SetMovementTarget(null, 1f);
                 follower.GetComponentInChildren<Animator>().SetBool("isHiding", false);
-                player.StepOnFinalButton();
+
+                // This makes the navmesh agents wait until the brown doors have opened before setting a path
+
+                DoorPlaceholder brownDoor = GameObject.Find("Brown 1").GetComponent<DoorPlaceholder>();
+
+                void finalFollow()
+                {
+                    follower.FinalFollow(brownDoor.ConnectedPressurePlate.transform.position);
+                }
+
+                brownDoor.OnAnimFinish += finalFollow;                
             }
+
+            PlayerController.endInitiated = true;
 
             // Open Brown doors only
             player.selectedPressurePlate.IsOccupied = true;

@@ -16,9 +16,6 @@ public class DoorPlaceholder : MonoBehaviour
 
     public void checkLockStatus(bool val)
     {
-        //Debug.Log("Door has checked conditions");
-
-        // TODO: Animate properly
         if (val)
         {
             GetComponentInChildren<Animator>().SetTrigger("OpenDoor");
@@ -29,10 +26,5 @@ public class DoorPlaceholder : MonoBehaviour
             GetComponentInChildren<Animator>().SetTrigger("CloseDoor");
             AkSoundEngine.PostEvent("DOOR", gameObject);
         }
-    }
-    
-    void animFinish()
-    {
-        OnAnimFinish();
     }
 }

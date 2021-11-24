@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class DoorAnim : MonoBehaviour
 {
+    public DoorPlaceholder ParentDoor;
+
     public void OnFinishAnim()
     {
-        //GetComponentInParent<DoorPlaceholder>().OnAnimFinish();
+        ParentDoor.OnAnimFinish();
     }
 }

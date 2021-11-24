@@ -137,14 +137,6 @@ public class PlayerController : Turtle
         base.Update();
     }
 
-    public void StepOnFinalButton()
-    {
-        endInitiated = true;
-
-        foreach (FollowerController follower in MoheyFollowers)
-                follower.FinalFollow(selectedPressurePlate.transform.position);        
-    }
-
     public void TurtlesArrived()
     {
         win = true;

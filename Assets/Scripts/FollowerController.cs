@@ -134,8 +134,12 @@ public class FollowerController : Turtle
         targetTransform = transform;
         targetStopDistance = stopDistance;
     }
+
     public void FinalFollow(Vector3 target)
     {
-        agent.SetDestination(target);
+        if (!agent.hasPath)
+        {
+            agent.SetDestination(target);
+        }        
     }
 }
