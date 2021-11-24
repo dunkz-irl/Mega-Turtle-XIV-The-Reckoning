@@ -16,15 +16,13 @@ public class DoorPlaceholder : MonoBehaviour
 
     public void checkLockStatus(bool val)
     {
-        if (val)
-        {
+        if (val)        
             GetComponentInChildren<Animator>().SetTrigger("OpenDoor");
-            AkSoundEngine.PostEvent("DOOR", gameObject);
-        }
-        else // Pressure plate is not occupied
-        {
+        
+        else // Pressure plate is not occupied        
             GetComponentInChildren<Animator>().SetTrigger("CloseDoor");
+
+        if (!PlayerController.endInitiated)
             AkSoundEngine.PostEvent("DOOR", gameObject);
-        }
     }
 }

@@ -6,7 +6,7 @@ public class BrownPressurePlate : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && !PlayerController.endInitiated)
         {     
             // For opening all doors
             //
@@ -33,9 +33,11 @@ public class BrownPressurePlate : MonoBehaviour
                     follower.FinalFollow(brownDoor.ConnectedPressurePlate.transform.position);
                 }
 
-                brownDoor.OnAnimFinish += finalFollow;                
+                brownDoor.OnAnimFinish += finalFollow;               
             }
 
+            // Extra SFX call as endInitialised will have changed (only triggers once)
+            AkSoundEngine.PostEvent("DOOR", gameObject);
             PlayerController.endInitiated = true;
 
             // Open Brown doors only
